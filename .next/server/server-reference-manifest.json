@@ -1,0 +1,129 @@
+{
+  "node": {
+    "404dcffc1723ab3f80a83b00432e187737b87817c7": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/index/page": {
+          "moduleId": "[project]/.next-internal/server/app/index/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/past-papers/page": {
+          "moduleId": "[project]/.next-internal/server/app/past-papers/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/quiz/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/search/page": {
+          "moduleId": "[project]/.next-internal/server/app/search/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-glossary-entry.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        },
+        "app/subjects/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/subjects/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/provide-topic-summaries.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/index/page": "action-browser",
+        "app/page": "action-browser",
+        "app/past-papers/page": "action-browser",
+        "app/quiz/[topic]/page": "action-browser",
+        "app/quiz/page": "action-browser",
+        "app/search/page": "action-browser",
+        "app/subjects/[slug]/page": "action-browser"
+      }
+    },
+    "40d2478e9246148e665237e5e01687651b828575bb": {
+      "workers": {
+        "app/subjects/[slug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/subjects/[slug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/provide-topic-summaries.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/subjects/[slug]/page": "action-browser"
+      }
+    },
+    "4024810428d762cec424c542bd7bf53c2c400d3990": {
+      "workers": {
+        "app/search/page": {
+          "moduleId": "[project]/.next-internal/server/app/search/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-glossary-entry.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/search/page": "action-browser"
+      }
+    },
+    "40cd5ef5f169ccf328d4fd4079493d26975390993a": {
+      "workers": {
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/quiz/[topic]/page": "action-browser"
+      }
+    },
+    "40c88fe8a1bfd3a4530976982422010d4e03d58b42": {
+      "workers": {
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/quiz/[topic]/page": "action-browser"
+      }
+    },
+    "406a3d57a5428574b61b856795866146e8b3da2a2d": {
+      "workers": {
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/quiz/[topic]/page": "action-browser"
+      }
+    },
+    "40a36103411b7a703aae20ee4c0e414b10ac4cd341": {
+      "workers": {
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/quiz/[topic]/page": "action-browser"
+      }
+    },
+    "4032978d9da9ae12d8e565efdd0e08e02e18d66fbc": {
+      "workers": {
+        "app/quiz/[topic]/page": {
+          "moduleId": "[project]/.next-internal/server/app/quiz/[topic]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-written-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/ai/flows/generate-cloze-test.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/src/ai/flows/explain-exam-question.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/src/ai/flows/grade-written-answer.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE5 => \"[project]/src/ai/flows/generate-matching-quiz.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/quiz/[topic]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "5iL2C0DfqKaIsDCS4Fli5U185JpuBdq4YJAypFVBbrw="
+}

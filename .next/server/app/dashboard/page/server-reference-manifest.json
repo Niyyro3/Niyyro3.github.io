@@ -1,0 +1,16 @@
+{
+  "node": {
+    "404dcffc1723ab3f80a83b00432e187737b87817c7": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

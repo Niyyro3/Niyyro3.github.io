@@ -1,0 +1,4988 @@
+module.exports = {
+
+"[project]/src/components/page-header.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "PageHeader": (()=>PageHeader)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+;
+;
+function PageHeaderComponent({ title, description, children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "mb-4 flex items-center justify-between space-y-2",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl font-bold tracking-tight font-headline",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/page-header.tsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this),
+                    description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-muted-foreground",
+                        children: description
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/page-header.tsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/page-header.tsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            children && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center space-x-2",
+                children: children
+            }, void 0, false, {
+                fileName: "[project]/src/components/page-header.tsx",
+                lineNumber: 18,
+                columnNumber: 20
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/page-header.tsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+const PageHeader = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["memo"])(PageHeaderComponent);
+}}),
+"[project]/src/components/ui/accordion.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Accordion": (()=>Accordion),
+    "AccordionContent": (()=>AccordionContent),
+    "AccordionItem": (()=>AccordionItem),
+    "AccordionTrigger": (()=>AccordionTrigger)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@radix-ui/react-accordion/dist/index.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-ssr] (ecmascript) <export default as ChevronDown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+const Accordion = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Root"];
+const AccordionItem = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Item"], {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("border-b", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/accordion.tsx",
+        lineNumber: 15,
+        columnNumber: 3
+    }, this));
+AccordionItem.displayName = "AccordionItem";
+const AccordionTrigger = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, children, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Header"], {
+        className: "flex",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Trigger"], {
+            ref: ref,
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180", className),
+            ...props,
+            children: [
+                children,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                    className: "h-4 w-4 shrink-0 transition-transform duration-200"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ui/accordion.tsx",
+                    lineNumber: 37,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/ui/accordion.tsx",
+            lineNumber: 28,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/accordion.tsx",
+        lineNumber: 27,
+        columnNumber: 3
+    }, this));
+AccordionTrigger.displayName = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Trigger"].displayName;
+const AccordionContent = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, children, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Content"], {
+        ref: ref,
+        className: "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
+        ...props,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("pb-4 pt-0", className),
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/ui/accordion.tsx",
+            lineNumber: 52,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/accordion.tsx",
+        lineNumber: 47,
+        columnNumber: 3
+    }, this));
+AccordionContent.displayName = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$accordion$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Content"].displayName;
+;
+}}),
+"[project]/src/lib/data.ts [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "allQuestions": (()=>allQuestions),
+    "quizData": (()=>quizData),
+    "resources": (()=>resources),
+    "subjects": (()=>subjects)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/icons.tsx [app-ssr] (ecmascript)");
+;
+const subjects = [
+    {
+        id: 'cold-war',
+        name: 'Superpower Relations and the Cold War, 1941-91',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icons"].coldWar,
+        description: 'Explore the ideological conflict and shifting international relations between the USA and the Soviet Union.',
+        image: 'cold-war-hero',
+        topics: [
+            {
+                id: 'cold-war-1',
+                title: 'Topic 1: The origins of the Cold War, 1941–58',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Winston Churchill</strong>: Prime Minister of Britain. Gave the 'Iron Curtain' speech.</li>
+            <li><strong>Franklin D. Roosevelt</strong>: US President at Yalta. Died before Potsdam.</li>
+            <li><strong>Joseph Stalin</strong>: Dictator of the USSR. His expansionist policies created tension.</li>
+            <li><strong>Harry S. Truman</strong>: US President at Potsdam. Implemented the Truman Doctrine and was more anti-communist than Roosevelt.</li>
+            <li><strong>George Marshall</strong>: US Secretary of State who created the Marshall Plan.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Grand Alliance (1941)</strong>: The USA, USSR, and Britain allied to defeat Nazi Germany, despite ideological differences.</li>
+            <li><strong>Yalta Conference (Feb 1945)</strong>: The 'Big Three' agreed to divide Germany into four zones and to hold free elections in Eastern Europe.</li>
+            <li><strong>Potsdam Conference (Jul-Aug 1945)</strong>: Disagreements over reparations and the future of Eastern Europe became clear. Truman informed Stalin of the US atomic bomb.</li>
+            <li><strong>The Truman Doctrine (1947)</strong>: The US policy of 'containment', promising to help any country resisting communism.</li>
+            <li><strong>The Marshall Plan (1947)</strong>: A multi-billion dollar aid package from the US to help rebuild Western Europe and prevent the spread of communism.</li>
+            <li><strong>The Berlin Blockade and Airlift (1948-49)</strong>: Stalin cut off all road and rail access to West Berlin. The Allies responded with a massive airlift to supply the city, forcing Stalin to back down.</li>
+            <li><strong>Formation of NATO (1949)</strong>: A military alliance of Western powers based on collective security.</li>
+            <li><strong>Formation of the Warsaw Pact (1955)</strong>: A military alliance of the Soviet Union and its Eastern European satellite states, created in response to West Germany joining NATO.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1945</strong>: Yalta and Potsdam Conferences</li>
+            <li><strong>1947</strong>: Truman Doctrine and Marshall Plan announced</li>
+            <li><strong>1948-49</strong>: Berlin Blockade and Airlift</li>
+            <li><strong>1949</strong>: NATO formed</li>
+            <li><strong>1955</strong>: Warsaw Pact formed</li>
+            <li><strong>1956</strong>: Hungarian Uprising</li>
+            <li><strong>1958</strong>: Khrushchev's Berlin Ultimatum</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'cold-war-1-1',
+                        title: 'The Grand Alliance',
+                        content: 'The alliance between the USA, USSR, and Britain during WWII.'
+                    },
+                    {
+                        id: 'cold-war-1-2',
+                        title: 'Yalta and Potsdam Conferences',
+                        content: 'The post-war conferences that revealed growing tensions between the superpowers.'
+                    },
+                    {
+                        id: 'cold-war-1-3',
+                        title: 'The Iron Curtain',
+                        content: 'Soviet expansion in Eastern Europe and Churchill\'s famous speech.'
+                    },
+                    {
+                        id: 'cold-war-1-4',
+                        title: 'The Truman Doctrine & Marshall Plan',
+                        content: 'American policies of containment and economic aid.'
+                    },
+                    {
+                        id: 'cold-war-1-5',
+                        title: 'The Berlin Blockade and Airlift',
+                        content: 'The first major crisis of the Cold War over the city of Berlin.'
+                    },
+                    {
+                        id: 'cold-war-1-6',
+                        title: 'NATO and the Warsaw Pact',
+                        content: 'The formation of opposing military alliances.'
+                    }
+                ]
+            },
+            {
+                id: 'cold-war-2',
+                title: 'Topic 2: Cold War crises, 1958–70',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Nikita Khrushchev</strong>: Leader of the USSR after Stalin. Placed missiles in Cuba.</li>
+            <li><strong>John F. Kennedy (JFK)</strong>: US President during the Cuban Missile Crisis.</li>
+            <li><strong>Fidel Castro</strong>: Communist leader of Cuba.</li>
+            <li><strong>Alexander Dubček</strong>: Leader of Czechoslovakia during the Prague Spring.</li>
+            <li><strong>Leonid Brezhnev</strong>: Leader of the USSR who crushed the Prague Spring and issued the Brezhnev Doctrine.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Hungarian Uprising (1956)</strong>: A popular revolt against Soviet rule was brutally crushed by the USSR, showing the limits of Eastern European independence.</li>
+            <li><strong>The Berlin Crisis (1958-61)</strong>: Khrushchev's ultimatum demanding the West leave Berlin led to a tense standoff, culminating in the construction of the Berlin Wall.</li>
+            <li><strong>Building of the Berlin Wall (1961)</strong>: The East German government built a wall to stop the "brain drain" of skilled workers fleeing to the West. It became a powerful symbol of the Cold War.</li>
+            <li><strong>The Cuban Missile Crisis (1962)</strong>: The closest the world came to nuclear war. The USSR placed nuclear missiles in Cuba, leading to a 13-day US naval blockade and a tense negotiation.</li>
+            <li><strong>The Prague Spring (1968)</strong>: A period of reform in Czechoslovakia led by Dubček ('Socialism with a human face') was crushed by a Warsaw Pact invasion.</li>
+            <li><strong>The Brezhnev Doctrine (1968)</strong>: Policy stating the USSR had the right to intervene in any satellite state that seemed to be moving away from communism.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1956</strong>: Hungarian Uprising</li>
+            <li><strong>1961</strong>: Berlin Wall built</li>
+            <li><strong>1962</strong>: Cuban Missile Crisis</li>
+            <li><strong>1968</strong>: Prague Spring and Soviet invasion of Czechoslovakia</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'cold-war-2-1',
+                        title: 'The Hungarian Uprising',
+                        content: 'The 1956 revolt against Soviet rule and its brutal suppression.'
+                    },
+                    {
+                        id: 'cold-war-2-2',
+                        title: 'The Berlin Crisis & Wall',
+                        content: 'The building of the Berlin Wall in 1961 to stop refugees fleeing East Germany.'
+                    },
+                    {
+                        id: 'cold-war-2-3',
+                        title: 'The Cuban Missile Crisis',
+                        content: 'The 13-day confrontation in 1962 that brought the world to the brink of nuclear war.'
+                    },
+                    {
+                        id: 'cold-war-2-4',
+                        title: 'The Prague Spring',
+                        content: 'The 1968 reform movement in Czechoslovakia and its suppression by the Warsaw Pact.'
+                    }
+                ]
+            },
+            {
+                id: 'cold-war-3',
+                title: 'Topic 3: The end of the Cold War, 1970–91',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Leonid Brezhnev</strong>: Leader of the USSR at the start of détente.</li>
+            <li><strong>Richard Nixon</strong>: US President who pursued détente, visiting China and the USSR.</li>
+            <li><strong>Mikhail Gorbachev</strong>: Final leader of the USSR. His reforms (Glasnost and Perestroika) led to the end of the Cold War.</li>
+            <li><strong>Ronald Reagan</strong>: US President who took a hardline stance against the USSR, calling it an "evil empire" and launching the SDI ('Star Wars') program.</li>
+            <li><strong>Boris Yeltsin</strong>: First President of Russia after the collapse of the USSR.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Détente (1970s)</strong>: A period of easing tensions, marked by treaties like SALT I (1972) and the Helsinki Accords (1975).</li>
+            <li><strong>Soviet Invasion of Afghanistan (1979)</strong>: This event ended détente. The US backed the Afghan Mujahideen resistance and boycotted the 1980 Moscow Olympics.</li>
+            <li><strong>Gorbachev's 'New Thinking' (from 1985)</strong>: Policies of 'Glasnost' (openness) and 'Perestroika' (restructuring) aimed to reform the USSR but ultimately destabilised it. He also abandoned the Brezhnev Doctrine.</li>
+            <li><strong>Fall of the Berlin Wall (1989)</strong>: Following popular protests and the opening of borders, the Berlin Wall was torn down, symbolising the collapse of communism in Eastern Europe.</li>
+            <li><strong>Collapse of the Warsaw Pact (1991)</strong>: The military alliance of communist states was formally dissolved.</li>
+            <li><strong>Collapse of the Soviet Union (1991)</strong>: Following a failed coup by hardline communists, Gorbachev resigned and the USSR was dissolved, ending the Cold War.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1972</strong>: SALT I treaty signed</li>
+            <li><strong>1975</strong>: Helsinki Accords</li>
+            <li><strong>1979</strong>: Soviet invasion of Afghanistan</li>
+            <li><strong>1985</strong>: Gorbachev becomes leader</li>
+            <li><strong>1989</strong>: Fall of the Berlin Wall</li>
+            <li><strong>1991</strong>: Collapse of the Soviet Union</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'cold-war-3-1',
+                        title: 'Détente',
+                        content: 'The easing of tensions between the superpowers, including the SALT treaties.'
+                    },
+                    {
+                        id: 'cold-war-3-2',
+                        title: 'Soviet Invasion of Afghanistan',
+                        content: 'The 1979 invasion that ended détente and renewed Cold War hostilities.'
+                    },
+                    {
+                        id: 'cold-war-3-3',
+                        title: 'Gorbachev\'s \'new thinking\'',
+                        content: 'The policies of Glasnost and Perestroika that transformed the Soviet Union.'
+                    },
+                    {
+                        id: 'cold-war-3-4',
+                        title: 'The fall of the Berlin Wall',
+                        content: 'The symbolic end of the Cold War in Europe in 1989.'
+                    },
+                    {
+                        id: 'cold-war-3-5',
+                        title: 'The collapse of the Soviet Union',
+                        content: 'The dissolution of the USSR in 1991.'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'weimar-nazi-germany',
+        name: 'Weimar and Nazi Germany, 1918–39',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icons"].weimar,
+        description: 'Investigate the challenges of the Weimar Republic and the rise and consolidation of Nazi power.',
+        image: 'weimar-hero',
+        topics: [
+            {
+                id: 'weimar-1',
+                title: 'Topic 1: The Weimar Republic 1918–29',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Kaiser Wilhelm II</strong>: The last German Emperor, who abdicated in November 1918.</li>
+            <li><strong>Friedrich Ebert</strong>: The first President of the Weimar Republic.</li>
+            <li><strong>Gustav Stresemann</strong>: Chancellor (1923) and Foreign Minister (1923-29) who oversaw the 'Golden Years' of economic recovery.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Abdication of the Kaiser (Nov 1918)</strong>: Led to the establishment of the new republic.</li>
+            <li><strong>Treaty of Versailles (Jun 1919)</strong>: The harsh terms, including the 'War Guilt Clause' and £6.6 billion in reparations, caused widespread resentment.</li>
+            <li><strong>Spartacist Uprising (Jan 1919)</strong>: A communist revolt in Berlin, crushed by the Freikorps.</li>
+            <li><strong>Kapp Putsch (Mar 1920)</strong>: A right-wing revolt in Berlin, defeated by a general strike.</li>
+            <li><strong>Hyperinflation (1923)</strong>: The German currency became worthless after the government printed money to pay striking workers in the Ruhr.</li>
+            <li><strong>The Dawes Plan (1924) & Young Plan (1929)</strong>: Restructured reparations payments and provided US loans, leading to economic stability.</li>
+            <li><strong>Locarno Pact (1925)</strong>: Germany agreed to respect its western borders, improving international relations.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1919</strong>: Treaty of Versailles signed, Weimar Constitution created</li>
+            <li><strong>1923</strong>: French occupation of the Ruhr, Hyperinflation crisis</li>
+            <li><strong>1924-29</strong>: The 'Golden Years' under Stresemann</li>
+            <li><strong>1929</strong>: Wall Street Crash</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'weimar-1-1',
+                        title: 'The establishment of the Weimar Republic',
+                        content: 'The revolution of 1918 and the new democratic constitution.'
+                    },
+                    {
+                        id: 'weimar-1-2',
+                        title: 'The Treaty of Versailles',
+                        content: 'The harsh terms of the treaty and their impact on Germany.'
+                    },
+                    {
+                        id: 'weimar-1-3',
+                        title: 'Early challenges to the Republic',
+                        content: 'Including the Spartacist Uprising and the Kapp Putsch.'
+                    },
+                    {
+                        id: 'weimar-1-4',
+                        title: 'The crisis of 1923',
+                        content: 'Hyperinflation and the French occupation of the Ruhr.'
+                    },
+                    {
+                        id: 'weimar-1-5',
+                        title: 'The Stresemann Era',
+                        content: 'The period of recovery from 1924-29, including new currency and international agreements.'
+                    }
+                ]
+            },
+            {
+                id: 'weimar-2',
+                title: 'Topic 2: Hitler’s rise to power, 1919–33',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Adolf Hitler</strong>: Leader of the Nazi Party.</li>
+            <li><strong>Anton Drexler</strong>: Founder of the German Workers' Party (DAP), which Hitler joined.</li>
+            <li><strong>Ernst Röhm</strong>: Leader of the SA (Sturmabteilung).</li>
+            <li><strong>Paul von Hindenburg</strong>: President of Germany who appointed Hitler as Chancellor.</li>
+            <li><strong>Franz von Papen</strong>: Conservative politician who persuaded Hindenburg to appoint Hitler.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Munich Putsch (1923)</strong>: Hitler's failed attempt to seize power in Bavaria. He was imprisoned and wrote 'Mein Kampf'.</li>
+            <li><strong>The Wall Street Crash (1929)</strong>: The US stock market crash led to the Great Depression, causing mass unemployment in Germany and a surge in support for extremist parties like the Nazis.</li>
+            <li><strong>July 1932 Election</strong>: The Nazis became the largest party in the Reichstag with 230 seats.</li>
+            <li><strong>Hitler's appointment as Chancellor (30 Jan 1933)</strong>: Hindenburg appointed Hitler as Chancellor in a coalition government, believing he could be controlled.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1920</strong>: The 25-Point Programme of the Nazi Party is announced.</li>
+            <li><strong>1923</strong>: The Munich (Beer Hall) Putsch.</li>
+            <li><strong>1929</strong>: The Wall Street Crash.</li>
+            <li><strong>1932</strong>: Nazis become the largest party in the Reichstag.</li>
+            <li><strong>1933</strong>: Hitler is appointed Chancellor.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'weimar-2-1',
+                        title: 'The early Nazi Party',
+                        content: 'The founding of the DAP, the 25-Point Programme, and the role of the SA.'
+                    },
+                    {
+                        id: 'weimar-2-2',
+                        title: 'The Munich Putsch',
+                        content: 'The failed attempt to seize power in 1923 and its consequences for Hitler.'
+                    },
+                    {
+                        id: 'weimar-2-3',
+                        title: 'The lean years of the Nazi Party',
+                        content: 'The party\'s reorganisation and struggle for support, 1924-28.'
+                    },
+                    {
+                        id: 'weimar-2-4',
+                        title: 'The Great Depression and rise of Nazism',
+                        content: 'How the Wall Street Crash created opportunities for extremist parties.'
+                    },
+                    {
+                        id: 'weimar-2-5',
+                        title: 'How Hitler became Chancellor',
+                        content: 'Political intrigue and backroom deals that led to Hitler\'s appointment in 1933.'
+                    }
+                ]
+            },
+            {
+                id: 'weimar-3',
+                title: 'Topic 3: Nazi control and dictatorship, 1933–39',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Adolf Hitler</strong>: Now Führer, holding absolute power.</li>
+            <li><strong>Joseph Goebbels</strong>: Minister of Propaganda and Enlightenment.</li>
+            <li><strong>Heinrich Himmler</strong>: Leader of the SS and all police forces.</li>
+            <li><strong>Hermann Göring</strong>: Established the Gestapo and was in charge of the Four Year Plan.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Reichstag Fire (Feb 1933)</strong>: Used as a pretext to suspend civil liberties and arrest communists.</li>
+            <li><strong>The Enabling Act (Mar 1933)</strong>: The law that gave Hitler the power to make laws without the Reichstag's consent, effectively making him a dictator.</li>
+            <li><strong>The Night of the Long Knives (Jun 1934)</strong>: The purge of the SA leadership, including Ernst Röhm, to eliminate rivals and win the support of the army.</li>
+            <li><strong>Death of Hindenburg (Aug 1934)</strong>: Hitler merged the offices of Chancellor and President to become the Führer.</li>
+            <li><strong>The Nuremberg Rallies</strong>: Annual mass propaganda events to display Nazi power and unity.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>Feb 1933</strong>: The Reichstag Fire.</li>
+            <li><strong>Mar 1933</strong>: The Enabling Act is passed.</li>
+            <li><strong>May 1933</strong>: Trade unions are banned.</li>
+            <li><strong>Jun 1934</strong>: The Night of the Long Knives.</li>
+            <li><strong>Aug 1934</strong>: Hitler becomes Führer.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'weimar-3-1',
+                        title: 'The Reichstag Fire',
+                        content: 'How the fire was used to increase Nazi power and suppress opponents.'
+                    },
+                    {
+                        id: 'weimar-3-2',
+                        title: 'The Enabling Act',
+                        content: 'The law that gave Hitler dictatorial powers.'
+                    },
+                    {
+                        id: 'weimar-3-3',
+                        title: 'The Night of the Long Knives',
+                        content: 'The purge of the SA to consolidate Hitler\'s power.'
+                    },
+                    {
+                        id: 'weimar-3-4',
+                        'title': 'The Police State',
+                        content: 'The roles of the SS, SD, and Gestapo in controlling the population.'
+                    },
+                    {
+                        id: 'weimar-3-5',
+                        'title': 'Propaganda and Censorship',
+                        content: 'Goebbels\' control of media and culture to promote Nazi ideology.'
+                    }
+                ]
+            },
+            {
+                id: 'weimar-4',
+                title: 'Topic 4: Life in Nazi Germany, 1933–39',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Gertrud Scholtz-Klink</strong>: Head of the Nazi Women's League.</li>
+            <li><strong>Baldur von Schirach</strong>: Leader of the Hitler Youth.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Nuremberg Laws (1935)</strong>: A series of antisemitic laws that stripped Jews of German citizenship and forbade relationships between Jews and Aryans.</li>
+            <li><strong>Kristallnacht (Night of Broken Glass, Nov 1938)</strong>: A nationwide pogrom against Jews, involving the destruction of synagogues and businesses, arrests, and murders.</li>
+            <li><strong>Creation of the Hitler Youth and League of German Maidens</strong>: Organisations to indoctrinate young people with Nazi ideology.</li>
+            <li><strong>Creation of the DAF (German Labour Front) and KdF (Strength Through Joy)</strong>: Nazi organisations to control workers and manage their leisure time.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1935</strong>: The Nuremberg Laws are passed.</li>
+            <li><strong>1936</strong>: Membership of the Hitler Youth becomes compulsory.</li>
+            <li><strong>1936</strong>: The Berlin Olympics are held.</li>
+            <li><strong>Nov 1938</strong>: Kristallnacht.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'weimar-4-1',
+                        title: 'Policies towards women',
+                        content: 'The ideal Nazi woman, marriage loans, and the "Kinder, Küche, Kirche" ideology.'
+                    },
+                    {
+                        id: 'weimar-4-2',
+                        title: 'Policies towards the young',
+                        content: 'The Hitler Youth, the League of German Maidens, and control of education.'
+                    },
+                    {
+                        id: 'weimar-4-3',
+                        title: 'Employment and living standards',
+                        content: 'The RAD, DAF, and KdF schemes and their impact.'
+                    },
+                    {
+                        id: 'weimar-4-4',
+                        'title': 'Persecution of minorities',
+                        content: 'The treatment of Jews, including the Nuremberg Laws and Kristallnacht.'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'medicine-in-britain',
+        name: 'Medicine in Britain, c1250–present',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icons"].medicine,
+        description: 'Follow the developments in medicine, from the medieval period to the modern day, including ideas, treatments, and public health.',
+        image: 'medicine-hero',
+        topics: [
+            {
+                id: 'medicine-1',
+                title: 'Topic 1: Medicine in medieval England, c1250–c1500',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Hippocrates</strong>: Ancient Greek doctor (c.460-c.370 BC), credited with the Theory of the Four Humours and the Hippocratic Oath.</li>
+            <li><strong>Galen</strong>: Roman doctor (c.130-c.210 AD) who developed the Four Humours theory with the Theory of Opposites. His work, supported by the Church, dominated medical training for 1,500 years.</li>
+            <li><strong>John of Arderne</strong>: A famous English surgeon (c.1307-1370) who developed his own painkilling ointments and had a high success rate. He wrote a surgical manual called 'Practica'.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Role of the Church</strong>: The Christian Church controlled universities and medical training, promoting Galen's ideas and discouraging dissection. It also ran the majority of hospitals, which offered care but not cure.</li>
+            <li><strong>Medieval Surgery</strong>: Surgery was very dangerous and rarely attempted. Barber-surgeons performed minor operations. John of Arderne was a rare example of a more specialised surgeon.</li>
+            <li><strong>The Black Death (1348-49)</strong>: A devastating pandemic of bubonic plague that killed up to half of England's population. People believed it was caused by God, miasma, or astrology. It led some to question medical ideas, but no breakthroughs were made.</li>
+          </ul>
+          <h2>Key Ideas & Treatments</h2>
+          <ul>
+            <li><strong>Four Humours</strong>: The idea that illness was caused by an imbalance of blood, phlegm, yellow bile and black bile.</li>
+            <li><strong>Miasma Theory</strong>: The belief that disease was caused by 'bad air'.</li>
+            <li><strong>Supernatural Beliefs</strong>: Many believed disease was a punishment from God or caused by witchcraft.</li>
+            <li><strong>Treatments</strong>: Bloodletting and purging (to balance humours), herbal remedies, prayer, and pilgrimages.</li>
+            <li><strong>Prevention</strong>: Religious actions (prayer, fasting), flagellation, purifying the air, and some basic hygiene advice from physicians.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>c.1250</strong>: Start of the period. Universities teaching medicine based on Galen.</li>
+            <li><strong>c.1350</strong>: Average life expectancy is around 35 years old.</li>
+            <li><strong>1348-49</strong>: The Black Death arrives in England and kills millions.</li>
+            <li><strong>1370</strong>: John of Arderne writes 'Practica', his surgical manual.</li>
+            <li><strong>c.1440</strong>: The printing press is invented, though its impact is not felt until the next period.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'medicine-1-1',
+                        title: 'Supernatural and religious explanations of disease',
+                        content: 'Beliefs about God, sin, and astrology causing illness.'
+                    },
+                    {
+                        id: 'medicine-1-2',
+                        title: 'The Theory of the Four Humours',
+                        content: 'The rational explanation for disease based on the ideas of Hippocrates and Galen.'
+                    },
+                    {
+                        id: 'medicine-1-3',
+                        title: 'Medieval treatments and prevention',
+                        content: 'Including bloodletting, herbal remedies, and the role of physicians and apothecaries.'
+                    },
+                    {
+                        id: 'medicine-1-4',
+                        title: 'The Black Death',
+                        content: 'The 1348 plague and its impact on society and medicine.'
+                    }
+                ]
+            },
+            {
+                id: 'medicine-2',
+                title: 'Topic 2: The Medical Renaissance in England, c1500–c1700',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Andreas Vesalius</strong>: Published 'On the Fabric of the Human Body' (1543), correcting Galen's anatomical errors through human dissection.</li>
+            <li><strong>William Harvey</strong>: Proved that blood circulates around the body, pumped by the heart. Published his findings in 1628.</li>
+            <li><strong>Thomas Sydenham</strong>: An English physician known as the 'English Hippocrates' who emphasised careful observation of patients.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Printing Press</strong>: Allowed new ideas and books to spread quickly and accurately across Europe.</li>
+            <li><strong>The Great Plague of London (1665)</strong>: The last major outbreak of bubonic plague in England. Responses were more organised than in 1348, with quarantine measures.</li>
+            <li><strong>The Royal Society</strong>: Founded in 1660, it promoted scientific research and discussion, with the motto 'Nullius in verba' (take nobody's word for it).</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1543</strong>: Vesalius publishes 'On the Fabric of the Human Body'.</li>
+            <li><strong>1628</strong>: Harvey publishes his theory on the circulation of blood.</li>
+            <li><strong>1665</strong>: The Great Plague in London.</li>
+            <li><strong>1665</strong>: The first scientific journal, 'Philosophical Transactions', is published by the Royal Society.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'medicine-2-1',
+                        title: 'Continuity and change in explanations of disease',
+                        content: 'The decline of religious explanations and persistence of the Four Humours.'
+                    },
+                    {
+                        id: 'medicine-2-2',
+                        title: 'The work of Vesalius',
+                        content: 'His work on anatomy and how it challenged Galen.'
+                    },
+                    {
+                        id: 'medicine-2-3',
+                        title: 'The work of William Harvey',
+                        content: 'His discovery of the circulation of the blood.'
+                    },
+                    {
+                        id: 'medicine-2-4',
+                        title: 'The Great Plague of 1665',
+                        content: 'Responses to the plague and comparisons with the Black Death.'
+                    }
+                ]
+            },
+            {
+                id: 'medicine-3',
+                title: 'Topic 3: Medicine in 18th and 19th-century Britain, c1700–c1900',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Edward Jenner</strong>: Developed the first vaccine, for smallpox, in 1796.</li>
+            <li><strong>Louis Pasteur</strong>: Developed Germ Theory in 1861, proving microbes caused disease.</li>
+            <li><strong>Robert Koch</strong>: Identified the specific bacteria that caused diseases like anthrax and tuberculosis.</li>
+            <li><strong>James Simpson</strong>: Discovered the anaesthetic properties of chloroform in 1847.</li>
+            <li><strong>Joseph Lister</strong>: Developed antiseptic surgery using carbolic acid in the 1860s.</li>
+            <li><strong>John Snow</strong>: Linked a cholera outbreak in London to a contaminated water pump in 1854.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Great Stink (1858)</strong>: A hot summer made the smell of the polluted River Thames so bad that it forced Parliament to fund a modern sewer system for London.</li>
+            <li><strong>Public Health Acts (1848 and 1875)</strong>: The 1875 act made it compulsory for local councils to provide clean water, sewers, and drains, significantly improving public health.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1796</strong>: Jenner performs the first vaccination.</li>
+            <li><strong>1847</strong>: Simpson discovers chloroform.</li>
+            <li><strong>1848</strong>: First Public Health Act.</li>
+            <li><strong>1854</strong>: John Snow's work on cholera.</li>
+            <li><strong>1861</strong>: Pasteur publishes Germ Theory.</li>
+            <li><strong>1875</strong>: Second, more effective, Public Health Act.</li>
+            <li><strong>1882</strong>: Koch identifies the tuberculosis bacterium.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'medicine-3-1',
+                        title: 'Edward Jenner and vaccination',
+                        content: 'The development of the first vaccine for smallpox.'
+                    },
+                    {
+                        id: 'medicine-3-2',
+                        title: 'Pasteur\'s Germ Theory',
+                        content: 'The scientific breakthrough that proved germs cause disease.'
+                    },
+                    {
+                        id: 'medicine-3-3',
+                        title: 'Robert Koch and bacteriology',
+                        content: 'Identifying the specific bacteria that caused diseases like anthrax and tuberculosis.'
+                    },
+                    {
+                        id: 'medicine-3-4',
+                        title: 'Anaesthetics and Antiseptics',
+                        content: 'The work of Simpson with chloroform and Lister with carbolic acid.'
+                    },
+                    {
+                        id: 'medicine-3-5',
+                        title: 'Public health in the 19th century',
+                        content: 'The work of John Snow and the 1875 Public Health Act.'
+                    }
+                ]
+            },
+            {
+                id: 'medicine-4',
+                title: 'Topic 4: Medicine in modern Britain, c1900–present',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Alexander Fleming</strong>: Discovered penicillin by accident in 1928.</li>
+            <li><strong>Florey and Chain</strong>: Developed Fleming's discovery into a mass-produced drug during World War II.</li>
+            <li><strong>Aneurin Bevan</strong>: Labour Health Minister who established the NHS in 1948.</li>
+            <li><strong>Crick and Watson</strong>: Discovered the structure of DNA in 1953.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Liberal Social Reforms (1906-11)</strong>: Introduction of measures like free school meals and old-age pensions.</li>
+            <li><strong>World Wars I and II</strong>: Spurred development in areas like plastic surgery and blood transfusions. Crucial for the mass production of penicillin.</li>
+            <li><strong>The Beveridge Report (1942)</strong>: Outlined the vision for a comprehensive welfare state, including a national health service.</li>
+            <li><strong>Launch of the NHS (1948)</strong>: Revolutionised healthcare by making it free at the point of use.</li>
+            <li><strong>The Human Genome Project (1990-2003)</strong>: Mapped the entire human genetic code, opening new possibilities for understanding and treating genetic diseases.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1928</strong>: Fleming discovers penicillin.</li>
+            <li><strong>1942</strong>: The Beveridge Report is published.</li>
+            <li><strong>1948</strong>: The NHS is launched.</li>
+            <li><strong>1953</strong>: Crick and Watson discover the structure of DNA.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'medicine-4-1',
+                        title: 'The discovery of antibiotics',
+                        content: 'Fleming\'s discovery of penicillin and the work of Florey and Chain.'
+                    },
+                    {
+                        id: 'medicine-4-2',
+                        title: 'The development of the NHS',
+                        content: 'The creation of the National Health Service in 1948 and its impact.'
+                    },
+                    {
+                        id: 'medicine-4-3',
+                        title: 'The discovery of DNA',
+                        content: 'The work of Crick and Watson and its impact on understanding genetic disease.'
+                    },
+                    {
+                        id: 'medicine-4-4',
+                        title: 'Modern surgery and treatments',
+                        content: 'Including keyhole surgery, transplants, and radiation therapy.'
+                    },
+                    {
+                        id: 'medicine-4-5',
+                        title: 'Modern public health',
+                        content: 'Government lifestyle campaigns and responses to modern pandemics.'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 'anglo-saxon-norman-england',
+        name: 'Anglo-Saxon and Norman England, c1060–88',
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Icons"].norman,
+        description: 'Analyse the society, power structures, and key events leading to the Norman Conquest and its aftermath.',
+        image: 'norman-hero',
+        topics: [
+            {
+                id: 'anglo-saxon-1',
+                title: 'Topic 1: Anglo-Saxon England and the succession crisis',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Edward the Confessor</strong>: The Anglo-Saxon king whose death without a clear heir caused the succession crisis of 1066.</li>
+            <li><strong>Harold Godwinson</strong>: The most powerful earl in England, crowned king by the Witan after Edward's death.</li>
+            <li><strong>William of Normandy</strong>: Duke of Normandy who claimed Edward had promised him the throne.</li>
+            <li><strong>Harald Hardrada</strong>: King of Norway, a fearsome Viking warrior who also claimed the throne.</li>
+            <li><strong>Tostig Godwinson</strong>: Harold's exiled brother who allied with Harald Hardrada.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Harold's Embassy to Normandy (1064)</strong>: Harold was shipwrecked in Normandy and allegedly swore an oath to support William's claim to the throne.</li>
+            <li><strong>Death of Edward the Confessor (Jan 1066)</strong>: Triggered the succession crisis.</li>
+            <li><strong>Battle of Gate Fulford (20 Sep 1066)</strong>: The northern earls, Edwin and Morcar, were defeated by Harald Hardrada and Tostig.</li>
+            <li><strong>Battle of Stamford Bridge (25 Sep 1066)</strong>: King Harold's army marched north and surprised and defeated the Viking army, killing both Hardrada and Tostig.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1064</strong>: Harold's Embassy to Normandy</li>
+            <li><strong>Jan 1066</strong>: Death of Edward the Confessor</li>
+            <li><strong>Sep 1066</strong>: Battles of Gate Fulford and Stamford Bridge</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'anglo-saxon-1-1',
+                        title: 'Anglo-Saxon society',
+                        content: 'The social structure, from the king to the peasants.'
+                    },
+                    {
+                        id: 'anglo-saxon-1-2',
+                        title: 'The House of Godwin',
+                        content: 'The power and influence of Earl Godwin and his family.'
+                    },
+                    {
+                        id: 'anglo-saxon-1-3',
+                        title: 'The succession crisis of 1066',
+                        content: 'The death of Edward the Confessor and the four claimants to the throne.'
+                    },
+                    {
+                        id: 'anglo-saxon-1-4',
+                        title: 'The Battles of Gate Fulford and Stamford Bridge',
+                        content: 'Harold Godwinson\'s fight against Hardrada and Tostig.'
+                    }
+                ]
+            },
+            {
+                id: 'anglo-saxon-2',
+                title: 'Topic 2: The Norman Conquest, 1066–68',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>William the Conqueror</strong>: Duke of Normandy, now King of England.</li>
+            <li><strong>Harold Godwinson</strong>: The defeated English king, killed at Hastings.</li>
+            <li><strong>Edgar Aethling</strong>: The Anglo-Saxon claimant, initially chosen as king after Hastings but soon submitted.</li>
+            <li><strong>Edwin and Morcar</strong>: The powerful northern earls who survived Hastings.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>Battle of Hastings (14 Oct 1066)</strong>: The decisive battle where the Normans defeated the English. Key factors included the English army's exhaustion and the effectiveness of Norman cavalry and archers (especially the 'feigned retreat' tactic).</li>
+            <li><strong>Submission of the Earls</strong>: After Hastings, William marched on London, and the remaining English leaders, including Edwin, Morcar, and Edgar Aethling, submitted to him at Berkhamsted.</li>
+            <li><strong>Castle Building</strong>: William immediately began building Motte and Bailey castles to control the country and intimidate the population.</li>
+            <li><strong>Revolt of Edwin and Morcar (1068)</strong>: The first major rebellion against William's rule, which collapsed when William marched north.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>14 Oct 1066</strong>: Battle of Hastings.</li>
+            <li><strong>25 Dec 1066</strong>: William is crowned King of England.</li>
+            <li><strong>1068</strong>: Revolt of Edwin and Morcar.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'anglo-saxon-2-1',
+                        title: 'The Battle of Hastings',
+                        content: 'The key events and reasons for William\'s victory.'
+                    },
+                    {
+                        id: 'anglo-saxon-2-2',
+                        title: 'Establishing control',
+                        content: 'William\'s march to London and early actions as king.'
+                    },
+                    {
+                        id: 'anglo-saxon-2-3',
+                        title: 'The Feudal System',
+                        content: 'How William used land to reward followers and control England.'
+                    },
+                    {
+                        id: 'anglo-saxon-2-4',
+                        title: 'Early rebellions',
+                        content: 'The revolts of Edwin and Morcar and other Anglo-Saxon resistance.'
+                    }
+                ]
+            },
+            {
+                id: 'anglo-saxon-3',
+                title: 'Topic 3: The Normanisation of England, 1068–88',
+                content: `
+          <h2>Key People</h2>
+          <ul>
+            <li><strong>Hereward the Wake</strong>: An Anglo-Saxon thegn who led a rebellion in the Fens at Ely.</li>
+            <li><strong>Lanfranc</strong>: William's replacement for Stigand as Archbishop of Canterbury. He reformed the English Church.</li>
+            <li><strong>Odo of Bayeux</strong>: William's half-brother, who acted as regent and was a powerful, often brutal, earl.</li>
+          </ul>
+          <h2>Key Events</h2>
+          <ul>
+            <li><strong>The Harrying of the North (1069-70)</strong>: A brutal campaign of destruction in the north of England following a series of rebellions. It led to widespread famine and death.</li>
+            <li><strong>Rebellion at Ely (1070-71)</strong>: Hereward the Wake led a resistance movement in the marshy Fens, which was eventually defeated by the Normans.</li>
+            <li><strong>Revolt of the Earls (1075)</strong>: A rebellion by three of William's own Norman earls, which failed due to lack of support and swift action by William's regents.</li>
+            <li><strong>The Domesday Book (1085-86)</strong>: A comprehensive survey of land and property in England, designed to maximise tax revenue and assert royal authority.</li>
+          </ul>
+          <h2>Key Dates</h2>
+          <ul>
+            <li><strong>1069-70</strong>: The Harrying of the North.</li>
+            <li><strong>1070-71</strong>: Hereward the Wake's rebellion.</li>
+            <li><strong>1075</strong>: The Revolt of the Earls.</li>
+            <li><strong>1085</strong>: The Domesday Book is commissioned.</li>
+            <li><strong>1087</strong>: Death of William the Conqueror.</li>
+          </ul>
+        `,
+                subTopics: [
+                    {
+                        id: 'anglo-saxon-3-1',
+                        title: 'The Harrying of the North',
+                        content: 'William\'s brutal response to rebellion in the north of England.'
+                    },
+                    {
+                        id: 'anglo-saxon-3-2',
+                        title: 'Changes in land ownership',
+                        content: 'The replacement of the Anglo-Saxon aristocracy with Normans.'
+                    },
+                    {
+                        id: 'anglo-saxon-3-3',
+                        title: 'Norman government',
+                        content: 'The roles of the king, tenants-in-chief, and sheriffs.'
+                    },
+                    {
+                        id: 'anglo-saxon-3-4',
+                        title: 'The Domesday Book',
+                        content: 'The purpose and significance of the great survey of 1086.'
+                    },
+                    {
+                        id: 'anglo-saxon-3-5',
+                        title: 'Norman culture',
+                        content: 'The changes to language, architecture (castles and churches), and the role of the Church.'
+                    }
+                ]
+            }
+        ]
+    }
+];
+const resources = {
+    reading: [
+        {
+            title: 'BBC Bitesize: GCSE History',
+            summary: 'Comprehensive revision notes, videos, and quizzes for a wide range of history topics.',
+            link: 'https://www.bbc.co.uk/bitesize/subjects/zj26n39'
+        },
+        {
+            title: 'School History',
+            summary: 'A wealth of resources, including revision materials and detailed information on historical periods.',
+            link: 'https://schoolhistory.co.uk/'
+        },
+        {
+            title: 'Pearson Edexcel GCSE History (2016)',
+            summary: 'The official Pearson qualifications page, with specifications, past papers, and examiner reports.',
+            link: 'https://qualifications.pearson.com/en/qualifications/edexcel-gcses/history-2016.html'
+        }
+    ],
+    videos: [
+        {
+            title: 'Mr. Allsop History',
+            summary: 'Revision videos covering a vast range of topics for GCSE History, known for their clarity and detail.',
+            link: 'https://www.youtube.com/c/MrAllsopHistory'
+        },
+        {
+            title: 'History Bombs',
+            summary: 'Engaging, cinematic videos that bring historical events to life in short, digestible episodes.',
+            link: 'https://www.youtube.com/c/HistoryBombs'
+        },
+        {
+            title: 'Simple History',
+            summary: 'Animated videos that provide clear and concise explanations of historical events and figures.',
+            link: 'https://www.youtube.com/c/Simplehistory'
+        }
+    ]
+};
+const allQuestions = [
+    // Cold War - Topic 1.1: The Grand Alliance
+    {
+        topicId: 'cold-war-1-1',
+        question: 'Which three countries formed the Grand Alliance during World War II?',
+        options: [
+            'USA, USSR, France',
+            'USA, USSR, Great Britain',
+            'USA, China, Great Britain',
+            'USSR, Great Britain, France'
+        ],
+        answer: 'USA, USSR, Great Britain'
+    },
+    {
+        topicId: 'cold-war-1-1',
+        question: 'What was the primary goal of the Grand Alliance?',
+        options: [
+            'To spread communism',
+            'To defeat Nazi Germany',
+            'To create the United Nations',
+            'To divide the world into spheres of influence'
+        ],
+        answer: 'To defeat Nazi Germany'
+    },
+    {
+        topicId: 'cold-war-1-1',
+        question: 'Who were the "Big Three" leaders at the Tehran Conference in 1943?',
+        options: [
+            'Attlee, Truman, Stalin',
+            'Churchill, Roosevelt, Stalin',
+            'Chamberlain, Roosevelt, Lenin',
+            'Churchill, Truman, Khrushchev'
+        ],
+        answer: 'Churchill, Roosevelt, Stalin'
+    },
+    {
+        topicId: 'cold-war-1-1',
+        question: 'Despite their alliance, what was a major source of tension between the USA/Britain and the USSR?',
+        options: [
+            'Economic competition',
+            'Disagreements over military strategy',
+            'Ideological differences (Capitalism vs. Communism)',
+            'Personal dislike between the leaders'
+        ],
+        answer: 'Ideological differences (Capitalism vs. Communism)'
+    },
+    {
+        topicId: 'cold-war-1-1',
+        question: 'The USSR was angry that the USA and Britain delayed opening a "second front" in Western Europe. What did Stalin suspect was the reason for this delay?',
+        options: [
+            'They were not strong enough',
+            'They wanted the USSR to be weakened by fighting Germany alone',
+            'They were waiting for better weather',
+            'They disagreed on where to attack'
+        ],
+        answer: 'They wanted the USSR to be weakened by fighting Germany alone'
+    },
+    // Cold War - Topic 1.2: Yalta and Potsdam
+    {
+        topicId: 'cold-war-1-2',
+        question: 'At which conference in February 1945 did the "Big Three" agree on post-war plans for Germany?',
+        options: [
+            'Tehran',
+            'Potsdam',
+            'Yalta',
+            'Moscow'
+        ],
+        answer: 'Yalta'
+    },
+    {
+        topicId: 'cold-war-1-2',
+        question: 'Which leader was NOT present at the Potsdam Conference?',
+        options: [
+            'Stalin',
+            'Churchill',
+            'Roosevelt',
+            'Attlee'
+        ],
+        answer: 'Roosevelt'
+    },
+    {
+        topicId: 'cold-war-1-2',
+        question: 'What major decision was made about Germany at Yalta?',
+        options: [
+            'To execute the Kaiser',
+            'To split it into four zones of occupation',
+            'To make it a communist state',
+            'To demand £6.6 billion in reparations'
+        ],
+        answer: 'To split it into four zones of occupation'
+    },
+    {
+        topicId: 'cold-war-1-2',
+        question: 'What new weapon did US President Truman successfully test just before the Potsdam Conference, giving him an advantage over Stalin?',
+        options: [
+            'The machine gun',
+            'The hydrogen bomb',
+            'The atomic bomb',
+            'The long-range bomber'
+        ],
+        answer: 'The atomic bomb'
+    },
+    {
+        topicId: 'cold-war-1-2',
+        question: 'A major disagreement at Potsdam was over...',
+        options: [
+            'The creation of the United Nations',
+            'The future of Poland and the composition of its government',
+            'The date for the end of the war',
+            'The location for the next conference'
+        ],
+        answer: 'The future of Poland and the composition of its government'
+    },
+    // Cold War - Topic 1.3: The Iron Curtain
+    {
+        topicId: 'cold-war-1-3',
+        question: 'Who gave the famous "Iron Curtain" speech in 1946?',
+        options: [
+            'Harry S. Truman',
+            'Winston Churchill',
+            'Joseph Stalin',
+            'George C. Marshall'
+        ],
+        answer: 'Winston Churchill'
+    },
+    {
+        topicId: 'cold-war-1-3',
+        question: 'What did the term "Iron Curtain" symbolize?',
+        options: [
+            'The new border between France and Germany',
+            'The division between capitalist West and communist East Europe',
+            'The Berlin Wall',
+            'The border between North and South Korea'
+        ],
+        answer: 'The division between capitalist West and communist East Europe'
+    },
+    {
+        topicId: 'cold-war-1-3',
+        question: 'Which of these countries was NOT a Soviet "satellite state" in Eastern Europe?',
+        options: [
+            'Poland',
+            'Hungary',
+            'France',
+            'Romania'
+        ],
+        answer: 'France'
+    },
+    {
+        topicId: 'cold-war-1-3',
+        question: 'What method did Stalin use to take over countries in Eastern Europe?',
+        options: [
+            'Free and fair elections',
+            'Offering economic aid',
+            'Salami tactics - rigging elections and intimidating opponents',
+            'A full-scale military invasion of every country'
+        ],
+        answer: 'Salami tactics - rigging elections and intimidating opponents'
+    },
+    {
+        topicId: 'cold-war-1-3',
+        question: 'How did Stalin justify keeping Soviet troops in Eastern Europe after the war?',
+        options: [
+            'To help rebuild their economies',
+            'To create a "buffer zone" against future German attacks',
+            'To prepare for an invasion of Western Europe',
+            'Because the people of Eastern Europe asked him to'
+        ],
+        answer: 'To create a "buffer zone" against future German attacks'
+    },
+    // Cold War - Topic 1.4: Truman Doctrine & Marshall Plan
+    {
+        topicId: 'cold-war-1-4',
+        question: 'The Truman Doctrine was a policy of what?',
+        options: [
+            'Isolationism',
+            'Containment',
+            'Expansionism',
+            'Appeasement'
+        ],
+        answer: 'Containment'
+    },
+    {
+        topicId: 'cold-war-1-4',
+        question: 'What was the name of the US economic aid program to help rebuild Western Europe after WWII?',
+        options: [
+            'The Truman Doctrine',
+            'The Marshall Plan',
+            'Comecon',
+            'The Yalta Agreement'
+        ],
+        answer: 'The Marshall Plan'
+    },
+    {
+        topicId: 'cold-war-1-4',
+        question: 'What was the primary goal of the Marshall Plan?',
+        options: [
+            'To make European countries dependent on the USA',
+            'To stop the spread of communism by making capitalism look better',
+            'To prepare for a war against the USSR',
+            'To punish Germany'
+        ],
+        answer: 'To stop the spread of communism by making capitalism look better'
+    },
+    {
+        topicId: 'cold-war-1-4',
+        question: 'How did Stalin react to the Marshall Plan?',
+        options: [
+            'He eagerly accepted the aid for all Eastern Bloc countries',
+            'He ignored it completely',
+            'He forbade any Eastern Bloc countries from accepting it and set up Comecon instead',
+            'He declared war on the USA'
+        ],
+        answer: 'He forbade any Eastern Bloc countries from accepting it and set up Comecon instead'
+    },
+    {
+        topicId: 'cold-war-1-4',
+        question: 'The Truman Doctrine was first applied in which two countries?',
+        options: [
+            'Britain and France',
+            'Greece and Turkey',
+            'Poland and Hungary',
+            'China and Japan'
+        ],
+        answer: 'Greece and Turkey'
+    },
+    // Cold War - Topic 1.5: Berlin Blockade & Airlift
+    {
+        topicId: 'cold-war-1-5',
+        question: 'How did the Western Allies respond to the Berlin Blockade in 1948?',
+        options: [
+            'By launching a military attack on Soviet positions',
+            'By giving up their sectors of Berlin',
+            'By launching an airlift to supply West Berlin',
+            'By building the Berlin Wall'
+        ],
+        answer: 'By launching an airlift to supply West Berlin'
+    },
+    {
+        topicId: 'cold-war-1-5',
+        question: 'Why did Stalin initiate the Berlin Blockade?',
+        options: [
+            'To protest against the creation of NATO',
+            'To force the Western allies out of Berlin',
+            'He was angry about the new currency (Deutschmark) in the Western zones',
+            'Both B and C are correct'
+        ],
+        answer: 'Both B and C'
+    },
+    {
+        topicId: 'cold-war-1-5',
+        question: 'The Berlin Airlift was also known by what code name?',
+        options: [
+            'Operation Overlord',
+            'Operation Vittles',
+            'Operation Barbarossa',
+            'Operation Market Garden'
+        ],
+        answer: 'Operation Vittles'
+    },
+    {
+        topicId: 'cold-war-1-5',
+        question: 'What was created in May 1949, shortly after the Blockade ended?',
+        options: [
+            'The Warsaw Pact',
+            'The German Democratic Republic (East Germany)',
+            'The Federal Republic of Germany (West Germany)',
+            'The United Nations'
+        ],
+        answer: 'The Federal Republic of Germany (West Germany)'
+    },
+    {
+        topicId: 'cold-war-1-5',
+        question: 'How long did the Berlin Blockade last?',
+        options: [
+            '6 weeks',
+            '3 months',
+            '11 months',
+            '2 years'
+        ],
+        answer: '11 months'
+    },
+    // Cold War - Topic 1.6: NATO and Warsaw Pact
+    {
+        topicId: 'cold-war-1-6',
+        question: 'What does NATO stand for?',
+        options: [
+            'North Atlantic Treaty Organization',
+            'Northern Alliance Treaty Organization',
+            'North American Trade Organization',
+            'New Atomic Treaty Organization'
+        ],
+        answer: 'North Atlantic Treaty Organization'
+    },
+    {
+        topicId: 'cold-war-1-6',
+        question: 'The Warsaw Pact was created in 1955 as a direct response to what?',
+        options: [
+            'The formation of the United Nations',
+            'The Marshall Plan',
+            'The creation of Comecon',
+            'West Germany joining NATO'
+        ],
+        answer: 'West Germany joining NATO'
+    },
+    {
+        topicId: 'cold-war-1-6',
+        question: 'What is the principle of "collective security" in NATO?',
+        options: [
+            'An attack on one member is considered an attack on all members',
+            'All members must have nuclear weapons',
+            'All member states must be democracies',
+            'All members must trade with each other'
+        ],
+        answer: 'An attack on one member is considered an attack on all members'
+    },
+    {
+        topicId: 'cold-war-1-6',
+        question: 'Which country was NOT a founding member of the Warsaw Pact?',
+        options: [
+            'Soviet Union',
+            'Poland',
+            'Yugoslavia',
+            'East Germany'
+        ],
+        answer: 'Yugoslavia'
+    },
+    {
+        topicId: 'cold-war-1-6',
+        question: 'The formation of NATO and the Warsaw Pact solidified...',
+        options: [
+            'The end of the Cold War',
+            'The division of Europe into two opposing military alliances',
+            'The economic recovery of Europe',
+            'The success of the United Nations'
+        ],
+        answer: 'The division of Europe into two opposing military alliances'
+    },
+    // Cold War - Topic 2.1: Hungarian Uprising
+    {
+        topicId: 'cold-war-2-1',
+        question: 'The 1956 Hungarian Uprising was a revolt against the control of which country?',
+        options: [
+            'USA',
+            'Yugoslavia',
+            'Soviet Union',
+            'Poland'
+        ],
+        answer: 'Soviet Union'
+    },
+    {
+        topicId: 'cold-war-2-1',
+        question: 'Who was the reformist leader of Hungary during the uprising?',
+        options: [
+            'Mátyás Rákosi',
+            'Imre Nagy',
+            'János Kádár',
+            'Nikita Khrushchev'
+        ],
+        answer: 'Imre Nagy'
+    },
+    {
+        topicId: 'cold-war-2-1',
+        question: 'What was a key demand of the Hungarian revolutionaries?',
+        options: [
+            'To join the USA',
+            'To leave the Warsaw Pact and become neutral',
+            'To get more economic aid from Moscow',
+            'To restore the monarchy'
+        ],
+        answer: 'To leave the Warsaw Pact and become neutral'
+    },
+    {
+        topicId: 'cold-war-2-1',
+        question: 'How did the Soviet Union respond to the Hungarian Uprising?',
+        options: [
+            'They ignored it',
+            'They negotiated a peaceful withdrawal',
+            'They launched a massive military invasion and crushed the rebellion',
+            'They asked the UN for help'
+        ],
+        answer: 'They launched a massive military invasion and crushed the rebellion'
+    },
+    {
+        topicId: 'cold-war-2-1',
+        question: 'What was the international reaction to the Soviet invasion of Hungary?',
+        options: [
+            'The USA sent troops to help the Hungarians',
+            'The UN imposed strict economic sanctions on the USSR',
+            'There was widespread condemnation, but no military intervention from the West',
+            'Most countries supported the Soviet action'
+        ],
+        answer: 'There was widespread condemnation, but no military intervention from the West'
+    },
+    // Cold War - Topic 2.2: The Berlin Crisis & Wall
+    {
+        topicId: 'cold-war-2-2',
+        question: 'Why was the Berlin Wall built in 1961?',
+        options: [
+            'To start a war with the West',
+            'To stop refugees fleeing from East to West Berlin',
+            'To create a new trade route',
+            'As a defensive measure against a planned US invasion'
+        ],
+        answer: 'To stop refugees fleeing from East to West Berlin'
+    },
+    {
+        topicId: 'cold-war-2-2',
+        question: 'What was Khrushchev\'s "Berlin Ultimatum" of 1958?',
+        options: [
+            'A demand that the USA give up its nuclear weapons',
+            'A threat to hand over control of all routes into Berlin to the East German government',
+            'An offer to reunite Germany',
+            'A demand for economic aid'
+        ],
+        answer: 'A threat to hand over control of all routes into Berlin to the East German government'
+    },
+    {
+        topicId: 'cold-war-2-2',
+        question: 'What was the "refugee problem" for East Germany?',
+        options: [
+            'Too many people were trying to get into East Germany',
+            'East Germany did not have enough housing for its people',
+            'Many young, skilled workers were leaving for West Germany',
+            'Refugees from other countries were causing social problems'
+        ],
+        answer: 'Many young, skilled workers were leaving for West Germany'
+    },
+    {
+        topicId: 'cold-war-2-2',
+        question: 'What was the famous speech John F. Kennedy gave in Berlin in 1963?',
+        options: [
+            '"Tear down this wall!"',
+            '"Ich bin ein Berliner"',
+            '"I have a dream"',
+            '"The only thing we have to fear is fear itself"'
+        ],
+        answer: '"Ich bin ein Berliner"'
+    },
+    {
+        topicId: 'cold-war-2-2',
+        question: 'What was a consequence of the Berlin Wall being built?',
+        options: [
+            'It solved the refugee crisis for East Germany',
+            'It became a powerful symbol of the division of Europe and the Cold War',
+            'It reduced tensions between the USA and USSR',
+            'Both A and B'
+        ],
+        answer: 'Both A and B'
+    },
+    // Cold War - Topic 2.3: Cuban Missile Crisis
+    {
+        topicId: 'cold-war-2-3',
+        question: 'The Cuban Missile Crisis occurred in what year?',
+        options: [
+            '1959',
+            '1961',
+            '1962',
+            '1963'
+        ],
+        answer: '1962'
+    },
+    {
+        topicId: 'cold-war-2-3',
+        question: 'Who was the leader of the USA during the Cuban Missile Crisis?',
+        options: [
+            'Dwight D. Eisenhower',
+            'John F. Kennedy',
+            'Lyndon B. Johnson',
+            'Richard Nixon'
+        ],
+        answer: 'John F. Kennedy'
+    },
+    {
+        topicId: 'cold-war-2-3',
+        question: 'Who was the leader of the Soviet Union during the Cuban Missile Crisis?',
+        options: [
+            'Stalin',
+            'Brezhnev',
+            'Gorbachev',
+            'Khrushchev'
+        ],
+        answer: 'Khrushchev'
+    },
+    {
+        topicId: 'cold-war-2-3',
+        question: 'How did the USA first respond to the discovery of Soviet missile sites in Cuba?',
+        options: [
+            'By launching an immediate air strike',
+            'By setting up a naval blockade (quarantine) around Cuba',
+            'By invading Cuba with ground troops',
+            'By doing nothing'
+        ],
+        answer: 'By setting up a naval blockade (quarantine) around Cuba'
+    },
+    {
+        topicId: 'cold-war-2-3',
+        question: 'What agreement ended the Cuban Missile Crisis?',
+        options: [
+            'The USSR would remove the missiles if the USA promised not to invade Cuba and secretly removed its missiles from Turkey',
+            'The USA would remove its missiles from West Germany',
+            'Cuba would be placed under UN control',
+            'The USSR would pay the USA to remove the missiles'
+        ],
+        answer: 'The USSR would remove the missiles if the USA promised not to invade Cuba and secretly removed its missiles from Turkey'
+    },
+    // Cold War - Topic 2.4: Prague Spring
+    {
+        topicId: 'cold-war-2-4',
+        question: 'What was the "Prague Spring"?',
+        options: [
+            'A cultural festival in Prague',
+            'A period of political liberalization in Czechoslovakia',
+            'A military invasion by Warsaw Pact troops',
+            'A student protest against communism'
+        ],
+        answer: 'A period of political liberalization in Czechoslovakia'
+    },
+    {
+        topicId: 'cold-war-2-4',
+        question: 'The "Brezhnev Doctrine" was announced after the suppression of which event?',
+        options: [
+            'The Hungarian Uprising',
+            'The construction of the Berlin Wall',
+            'The Prague Spring',
+            'The Bay of Pigs Invasion'
+        ],
+        answer: 'The Prague Spring'
+    },
+    {
+        topicId: 'cold-war-2-4',
+        question: 'Who was the leader of Czechoslovakia who introduced the Prague Spring reforms?',
+        options: [
+            'Gustáv Husák',
+            'Alexander Dubček',
+            'Leonid Brezhnev',
+            'Imre Nagy'
+        ],
+        answer: 'Alexander Dubček'
+    },
+    {
+        topicId: 'cold-war-2-4',
+        question: 'What was Dubček\'s idea of "Socialism with a human face"?',
+        options: [
+            'A return to capitalism',
+            'Introducing more freedoms like freedom of speech while remaining communist',
+            'Leaving the Warsaw Pact immediately',
+            'A full military alliance with the West'
+        ],
+        answer: 'Introducing more freedoms like freedom of speech while remaining communist'
+    },
+    {
+        topicId: 'cold-war-2-4',
+        question: 'How did the Soviet Union and Warsaw Pact countries respond to the Prague Spring?',
+        options: [
+            'They supported the reforms',
+            'They offered economic aid',
+            'They launched a massive military invasion',
+            'They did nothing'
+        ],
+        answer: 'They launched a massive military invasion'
+    },
+    // Cold War - Topic 3.1: Détente
+    {
+        topicId: 'cold-war-3-1',
+        question: 'What does "Détente" refer to in the context of the Cold War?',
+        options: [
+            'An increase in tensions',
+            'The easing of tensions',
+            'A period of proxy wars',
+            'A nuclear arms race'
+        ],
+        answer: 'The easing of tensions'
+    },
+    {
+        topicId: 'cold-war-3-1',
+        question: 'The SALT I treaty, signed in 1972, was an agreement about what?',
+        options: [
+            'Human rights',
+            'Economic cooperation',
+            'Limiting nuclear weapons',
+            'Ending the space race'
+        ],
+        answer: 'Limiting nuclear weapons'
+    },
+    {
+        topicId: 'cold-war-3-1',
+        question: 'Which US President visited China in 1972 as part of the policy of Détente?',
+        options: [
+            'John F. Kennedy',
+            'Lyndon B. Johnson',
+            'Richard Nixon',
+            'Jimmy Carter'
+        ],
+        answer: 'Richard Nixon'
+    },
+    {
+        topicId: 'cold-war-3-1',
+        question: 'The Helsinki Accords of 1975 saw agreements made on which three main areas?',
+        options: [
+            'Security, Trade, and Space Exploration',
+            'Security, Co-operation, and Human Rights',
+            'Military, Economy, and Culture',
+            'Borders, Technology, and Environment'
+        ],
+        answer: 'Security, Co-operation, and Human Rights'
+    },
+    {
+        topicId: 'cold-war-3-1',
+        question: 'What was the name of the joint US-Soviet space mission in 1975, a symbol of Détente?',
+        options: [
+            'Apollo-Soyuz Test Project',
+            'Sputnik-Explorer Project',
+            'Mir-Shuttle Program',
+            'International Space Station'
+        ],
+        answer: 'Apollo-Soyuz Test Project'
+    },
+    // Cold War - Topic 3.2: Soviet Invasion of Afghanistan
+    {
+        topicId: 'cold-war-3-2',
+        question: 'Which country did the Soviet Union invade in 1979, effectively ending the period of Détente?',
+        options: [
+            'Vietnam',
+            'Korea',
+            'Afghanistan',
+            'Poland'
+        ],
+        answer: 'Afghanistan'
+    },
+    {
+        topicId: 'cold-war-3-2',
+        question: 'Who was the US President at the time of the Soviet invasion of Afghanistan?',
+        options: [
+            'Richard Nixon',
+            'Gerald Ford',
+            'Jimmy Carter',
+            'Ronald Reagan'
+        ],
+        answer: 'Jimmy Carter'
+    },
+    {
+        topicId: 'cold-war-3-2',
+        question: 'How did the USA respond to the invasion of Afghanistan?',
+        options: [
+            'They sent US troops to fight the Soviets',
+            'They boycotted the 1980 Moscow Olympics',
+            'They secretly funded and armed the Afghan resistance (Mujahideen)',
+            'Both B and C'
+        ],
+        answer: 'Both B and C'
+    },
+    {
+        topicId: 'cold-war-3-2',
+        question: 'The "Carter Doctrine" stated that the USA would use military force if necessary to defend its interests in...',
+        options: [
+            'The Persian Gulf region',
+            'Western Europe',
+            'South-East Asia',
+            'Latin America'
+        ],
+        answer: 'The Persian Gulf region'
+    },
+    {
+        topicId: 'cold-war-3-2',
+        question: 'The SALT II treaty was signed in 1979 but was never ratified by the US Senate. Why?',
+        options: [
+            'The treaty was seen as too favourable to the USSR',
+            'Because of the Soviet invasion of Afghanistan',
+            'Ronald Reagan rejected it',
+            'It was replaced by a better treaty'
+        ],
+        answer: 'Because of the Soviet invasion of Afghanistan'
+    },
+    // Cold War - Topic 3.3: Gorbachev's 'new thinking'
+    {
+        topicId: 'cold-war-3-3',
+        question: 'What were Gorbachev\'s policies of "Glasnost" and "Perestroika"?',
+        options: [
+            'Secrecy and Centralization',
+            'Openness and Restructuring',
+            'Aggression and Expansion',
+            'Isolation and Protectionism'
+        ],
+        answer: 'Openness and Restructuring'
+    },
+    {
+        topicId: 'cold-war-3-3',
+        question: 'Which US President famously told Gorbachev to "tear down this wall"?',
+        options: [
+            'Jimmy Carter',
+            'Ronald Reagan',
+            'George H.W. Bush',
+            'Bill Clinton'
+        ],
+        answer: 'Ronald Reagan'
+    },
+    {
+        topicId: 'cold-war-3-3',
+        question: 'Gorbachev abandoned the Brezhnev Doctrine. What did this mean for the countries of Eastern Europe?',
+        options: [
+            'They would receive more economic aid from Moscow',
+            'They had to strengthen their armies',
+            'The USSR would no longer intervene if they moved away from communism',
+            'They had to adopt Glasnost and Perestroika'
+        ],
+        answer: 'The USSR would no longer intervene if they moved away from communism'
+    },
+    {
+        topicId: 'cold-war-3-3',
+        question: 'The INF Treaty signed in 1987 was a landmark agreement because...',
+        options: [
+            'It was the first treaty to reduce the number of nuclear weapons',
+            'It ended the war in Afghanistan',
+            'It reunited Germany',
+            'It dissolved the Warsaw Pact'
+        ],
+        answer: 'It was the first treaty to reduce the number of nuclear weapons'
+    },
+    {
+        topicId: 'cold-war-3-3',
+        question: 'Gorbachev became the leader of the Soviet Union in what year?',
+        options: [
+            '1980',
+            '1982',
+            '1985',
+            '1989'
+        ],
+        answer: '1985'
+    },
+    // Cold War - Topic 3.4: The fall of the Berlin Wall
+    {
+        topicId: 'cold-war-3-4',
+        question: 'The fall of the Berlin Wall occurred in which year?',
+        options: [
+            '1985',
+            '1987',
+            '1989',
+            '1991'
+        ],
+        answer: '1989'
+    },
+    {
+        topicId: 'cold-war-3-4',
+        question: 'What event directly triggered the opening of the Berlin Wall checkpoints?',
+        options: [
+            'A massive protest by West Berliners',
+            'An order from Mikhail Gorbachev',
+            'A botched announcement by an East German government official',
+            'An agreement between the USA and USSR'
+        ],
+        answer: 'A botched announcement by an East German government official'
+    },
+    {
+        topicId: 'cold-war-3-4',
+        question: 'The fall of the Berlin Wall symbolised...',
+        options: [
+            'The beginning of the Cold War',
+            'The peak of Soviet power',
+            'The imminent collapse of communist control in Eastern Europe',
+            'The strength of the Warsaw Pact'
+        ],
+        answer: 'The imminent collapse of communist control in Eastern Europe'
+    },
+    {
+        topicId: 'cold-war-3-4',
+        question: 'Which Eastern European country opened its border with Austria in the summer of 1989, allowing thousands of East Germans to escape to the West?',
+        options: [
+            'Poland',
+            'Czechoslovakia',
+            'Hungary',
+            'Romania'
+        ],
+        answer: 'Hungary'
+    },
+    {
+        topicId: 'cold-war-3-4',
+        question: 'When was Germany officially reunified?',
+        options: [
+            'November 1989',
+            'December 1989',
+            'October 1990',
+            'December 1991'
+        ],
+        answer: 'October 1990'
+    },
+    // Cold War - Topic 3.5: The collapse of the Soviet Union
+    {
+        topicId: 'cold-war-3-5',
+        question: 'The collapse of the Soviet Union happened in which year?',
+        options: [
+            '1989',
+            '1990',
+            '1991',
+            '1992'
+        ],
+        answer: '1991'
+    },
+    {
+        topicId: 'cold-war-3-5',
+        question: 'What was the immediate consequence of the collapse of the Warsaw Pact in July 1991?',
+        options: [
+            'NATO was also dissolved',
+            'It removed a key pillar of Soviet control over Eastern Europe',
+            'The Cold War immediately ended',
+            'The UN took control of Eastern Europe'
+        ],
+        answer: 'It removed a key pillar of Soviet control over Eastern Europe'
+    },
+    {
+        topicId: 'cold-war-3-5',
+        question: 'What was the August Coup of 1991?',
+        options: [
+            'An attempt by Gorbachev to seize more power',
+            'An attempt by hardline communists to overthrow Gorbachev',
+            'A popular uprising against communism',
+            'A military parade in Moscow'
+        ],
+        answer: 'An attempt by hardline communists to overthrow Gorbachev'
+    },
+    {
+        topicId: 'cold-war-3-5',
+        question: 'Who became the first president of the newly independent Russia after the collapse of the USSR?',
+        options: [
+            'Mikhail Gorbachev',
+            'Leonid Brezhnev',
+            'Boris Yeltsin',
+            'Vladimir Putin'
+        ],
+        answer: 'Boris Yeltsin'
+    },
+    {
+        topicId: 'cold-war-3-5',
+        question: 'Which of the following was a major factor in the collapse of the Soviet Union?',
+        options: [
+            'The economic cost of the arms race',
+            'Gorbachev\'s reforms (Glasnost & Perestroika)',
+            'Nationalism within the Soviet republics',
+            'All of the above'
+        ],
+        answer: [
+            'The economic cost of the arms race',
+            'Gorbachev\'s reforms (Glasnost & Perestroika)',
+            'Nationalism within the Soviet republics'
+        ]
+    },
+    // Weimar and Nazi Germany - Topic 1.1
+    {
+        topicId: 'weimar-1-1',
+        question: 'When did the Kaiser abdicate?',
+        options: [
+            '9th November 1918',
+            '11th November 1918',
+            '28th June 1919',
+            '8th November 1923'
+        ],
+        answer: '9th November 1918'
+    },
+    {
+        topicId: 'weimar-1-1',
+        question: 'Who became the first President of the Weimar Republic?',
+        options: [
+            'Gustav Stresemann',
+            'Friedrich Ebert',
+            'Paul von Hindenburg',
+            'Adolf Hitler'
+        ],
+        answer: 'Friedrich Ebert'
+    },
+    {
+        topicId: 'weimar-1-1',
+        question: 'What was the term used by Germans for the politicians who signed the armistice, implying they had betrayed the army?',
+        options: [
+            'The Freikorps',
+            'The Spartacists',
+            'The November Criminals',
+            'The Social Democrats'
+        ],
+        answer: 'The November Criminals'
+    },
+    {
+        topicId: 'weimar-1-1',
+        question: 'The Weimar Constitution included a system of "proportional representation". What was a major weakness of this?',
+        options: [
+            'It was undemocratic',
+            'It led to lots of small parties in the Reichstag and weak coalition governments',
+            'It gave too much power to the President',
+            'It banned extremist parties'
+        ],
+        answer: 'It led to lots of small parties in the Reichstag and weak coalition governments'
+    },
+    {
+        topicId: 'weimar-1-1',
+        question: 'What did Article 48 of the Weimar Constitution allow the President to do?',
+        options: [
+            'Declare war',
+            'Appoint the Chancellor',
+            'Rule by decree in an emergency',
+            'Veto any law passed by the Reichstag'
+        ],
+        answer: 'Rule by decree in an emergency'
+    },
+    // Weimar and Nazi Germany - Topic 1.2
+    {
+        topicId: 'weimar-1-2',
+        question: 'What was Article 231 of the Treaty of Versailles also known as?',
+        options: [
+            'The Anschluss Clause',
+            'The War Guilt Clause',
+            'The Disarmament Clause',
+            'The Reparations Clause'
+        ],
+        answer: 'The War Guilt Clause'
+    },
+    {
+        topicId: 'weimar-1-2',
+        question: 'How large was the German army limited to by the Treaty of Versailles?',
+        options: [
+            '50,000 men',
+            '100,000 men',
+            '250,000 men',
+            '500,000 men'
+        ],
+        answer: '100,000 men'
+    },
+    {
+        topicId: 'weimar-1-2',
+        question: 'What does the term "Diktat" mean in relation to the Treaty of Versailles?',
+        options: [
+            'A fair negotiation',
+            'A military alliance',
+            'A dictated peace',
+            'An economic plan'
+        ],
+        answer: 'A dictated peace'
+    },
+    {
+        topicId: 'weimar-1-2',
+        question: 'Which area of Germany was demilitarised under the terms of the Treaty?',
+        options: [
+            'The Ruhr',
+            'Bavaria',
+            'Alsace-Lorraine',
+            'The Rhineland'
+        ],
+        answer: 'The Rhineland'
+    },
+    {
+        topicId: 'weimar-1-2',
+        question: 'What was the amount of reparations Germany was ordered to pay in 1921?',
+        options: [
+            '£1.1 billion',
+            '£6.6 billion',
+            '£10 billion',
+            '£20 billion'
+        ],
+        answer: '£6.6 billion'
+    },
+    // Weimar and Nazi Germany - Topic 1.3
+    {
+        topicId: 'weimar-1-3',
+        question: 'Who were the leaders of the Spartacist Uprising in 1919?',
+        options: [
+            'Wolfgang Kapp and Walther von Lüttwitz',
+            'Adolf Hitler and Erich Ludendorff',
+            'Rosa Luxemburg and Karl Liebknecht',
+            'Friedrich Ebert and Gustav Stresemann'
+        ],
+        answer: 'Rosa Luxemburg and Karl Liebknecht'
+    },
+    {
+        topicId: 'weimar-1-3',
+        question: 'The Spartacists were...',
+        options: [
+            'Right-wing nationalists',
+            'Monarchists',
+            'Communists',
+            'Social Democrats'
+        ],
+        answer: 'Communists'
+    },
+    {
+        topicId: 'weimar-1-3',
+        question: 'How was the Spartacist Uprising defeated?',
+        options: [
+            'By the German army',
+            'By the government negotiating with the leaders',
+            'By the Freikorps, organised by the government',
+            'The uprising failed due to lack of support'
+        ],
+        answer: 'By the Freikorps, organised by the government'
+    },
+    {
+        topicId: 'weimar-1-3',
+        question: 'The Kapp Putsch of 1920 was an attempted coup by...',
+        options: [
+            'The Spartacists',
+            'The Nazi Party',
+            'The Freikorps and right-wing nationalists',
+            'The Bavarian government'
+        ],
+        answer: 'The Freikorps and right-wing nationalists'
+    },
+    {
+        topicId: 'weimar-1-3',
+        question: 'How was the Kapp Putsch defeated?',
+        options: [
+            'By the army attacking the Freikorps',
+            'By a general strike called by the government',
+            'Wolfgang Kapp surrendered peacefully',
+            'Hitler persuaded them to stop'
+        ],
+        answer: 'By a general strike called by the government'
+    },
+    // Weimar and Nazi Germany - Topic 1.4
+    {
+        topicId: 'weimar-1-4',
+        question: 'Why did French and Belgian troops invade the Ruhr in 1923?',
+        options: [
+            'To start a war with Germany',
+            'Germany had failed to pay its reparations',
+            'To prevent a communist uprising',
+            'To help Germany rebuild its industry'
+        ],
+        answer: 'Germany had failed to pay its reparations'
+    },
+    {
+        topicId: 'weimar-1-4',
+        question: 'What policy did the German government adopt in response to the Ruhr invasion?',
+        options: [
+            'Active resistance (fighting back)',
+            'Passive resistance (workers went on strike)',
+            'Full cooperation with the French',
+            'Asking the League of Nations for help'
+        ],
+        answer: 'Passive resistance (workers went on strike)'
+    },
+    {
+        topicId: 'weimar-1-4',
+        question: 'What is hyperinflation?',
+        options: [
+            'When prices fall rapidly',
+            'When the value of money increases rapidly',
+            'When prices rise extremely rapidly and money becomes worthless',
+            'When the government borrows a lot of money'
+        ],
+        answer: 'When prices rise extremely rapidly and money becomes worthless'
+    },
+    {
+        topicId: 'weimar-1-4',
+        question: 'Who benefited from hyperinflation?',
+        options: [
+            'People with savings',
+            'Pensioners',
+            'People with debts and mortgages',
+            'Factory workers on fixed wages'
+        ],
+        answer: 'People with debts and mortgages'
+    },
+    {
+        topicId: 'weimar-1-4',
+        question: 'Who suffered the most from hyperinflation?',
+        options: [
+            'The government',
+            'Business owners',
+            'People with savings and those on fixed incomes',
+            'Farmers'
+        ],
+        answer: 'People with savings and those on fixed incomes'
+    },
+    // Weimar and Nazi Germany - Topic 1.5
+    {
+        topicId: 'weimar-1-5',
+        question: 'Who was the leading politician of the "Golden Years" of the Weimar Republic (1924-1929)?',
+        options: [
+            'Friedrich Ebert',
+            'Paul von Hindenburg',
+            'Gustav Stresemann',
+            'Adolf Hitler'
+        ],
+        answer: 'Gustav Stresemann'
+    },
+    {
+        topicId: 'weimar-1-5',
+        question: 'What was the name of the new currency Stresemann introduced to solve hyperinflation?',
+        options: [
+            'Deutschmark',
+            'Reichsmark',
+            'Rentenmark',
+            'Euro'
+        ],
+        answer: 'Rentenmark'
+    },
+    {
+        topicId: 'weimar-1-5',
+        question: 'The Dawes Plan of 1924 did which of the following?',
+        options: [
+            'Ended reparations payments completely',
+            'Restructured reparations payments and provided US loans to Germany',
+            'Gave the Ruhr back to Germany',
+            'Allowed Germany to rearm'
+        ],
+        answer: 'Restructured reparations payments and provided US loans to Germany'
+    },
+    {
+        topicId: 'weimar-1-5',
+        question: 'The Locarno Pact of 1925 was an agreement to...',
+        options: [
+            'Reduce the size of all European armies',
+            'Respect the existing borders between Germany, France, and Belgium',
+            'Create an economic union in Europe',
+            'Forbid Germany from ever having a navy'
+        ],
+        answer: 'Respect the existing borders between Germany, France, and Belgium'
+    },
+    {
+        topicId: 'weimar-1-5',
+        question: 'In what year was Germany allowed to join the League of Nations?',
+        options: [
+            '1923',
+            '1925',
+            '1926',
+            '1929'
+        ],
+        answer: '1926'
+    },
+    // Weimar and Nazi Germany - Topic 2.1
+    {
+        topicId: 'weimar-2-1',
+        question: 'In what year was the German Workers\' Party (DAP) founded?',
+        options: [
+            '1918',
+            '1919',
+            '1920',
+            '1921'
+        ],
+        answer: '1919'
+    },
+    {
+        topicId: 'weimar-2-1',
+        question: 'What was the 25-Point Programme?',
+        options: [
+            'Hitler\'s autobiography',
+            'The constitution of the Weimar Republic',
+            'The Nazi Party\'s political manifesto',
+            'A peace treaty'
+        ],
+        answer: 'The Nazi Party\'s political manifesto'
+    },
+    {
+        topicId: 'weimar-2-1',
+        question: 'What role did the SA (Sturmabteilung) play in the early Nazi Party?',
+        options: [
+            'They were the party\'s intellectual think-tank',
+            'They were responsible for propaganda',
+            'They were a paramilitary wing used to intimidate opponents',
+            'They were the party\'s fundraisers'
+        ],
+        answer: 'They were a paramilitary wing used to intimidate opponents'
+    },
+    {
+        topicId: 'weimar-2-1',
+        question: 'Who was the first leader of the Nazi Party?',
+        options: [
+            'Adolf Hitler',
+            'Anton Drexler',
+            'Ernst Röhm',
+            'Rudolf Hess'
+        ],
+        answer: 'Anton Drexler'
+    },
+    {
+        topicId: 'weimar-2-1',
+        question: 'What symbol did the Nazi Party adopt?',
+        options: [
+            'A hammer and sickle',
+            'A five-pointed star',
+            'An eagle',
+            'The swastika'
+        ],
+        answer: 'The swastika'
+    },
+    // Weimar and Nazi Germany - Topic 2.2
+    {
+        topicId: 'weimar-2-2',
+        question: 'The Munich Putsch was an attempt by Hitler to overthrow which German state government?',
+        options: [
+            'Prussia',
+            'Saxony',
+            'Bavaria',
+            'The national government in Berlin'
+        ],
+        answer: 'Bavaria'
+    },
+    {
+        topicId: 'weimar-2-2',
+        question: 'Which famous World War I general supported Hitler during the Munich Putsch?',
+        options: [
+            'Paul von Hindenburg',
+            'Erich Ludendorff',
+            'Max von Baden',
+            'Wilhelm Groener'
+        ],
+        answer: 'Erich Ludendorff'
+    },
+    {
+        topicId: 'weimar-2-2',
+        question: 'What was the immediate outcome of the Munich Putsch for Hitler?',
+        options: [
+            'He successfully seized power',
+            'He was exiled from Germany',
+            'He was arrested and put on trial for treason',
+            'He went into hiding'
+        ],
+        answer: 'He was arrested and put on trial for treason'
+    },
+    {
+        topicId: 'weimar-2-2',
+        question: 'How long was Hitler sentenced to prison for, and how long did he actually serve?',
+        options: [
+            'Life, but served 10 years',
+            '10 years, but served 5 years',
+            '5 years, but served less than a year',
+            '1 year, and served the full term'
+        ],
+        answer: '5 years, but served less than a year'
+    },
+    {
+        topicId: 'weimar-2-2',
+        question: 'What important lesson did Hitler learn from the failure of the Munich Putsch?',
+        options: [
+            'That he needed a bigger army',
+            'That he could not take power by force and must use legal means',
+            'That he should not trust his allies',
+            'That Bavaria was not the right place to start a revolution'
+        ],
+        answer: 'That he could not take power by force and must use legal means'
+    },
+    // Weimar and Nazi Germany - Topic 2.3
+    {
+        topicId: 'weimar-2-3',
+        question: 'What does "the lean years" refer to for the Nazi party?',
+        options: [
+            'A period when the party leaders were on a diet',
+            'The period from 1924-1928 when the party struggled to gain support',
+            'The period of hyperinflation',
+            'The first years of World War II'
+        ],
+        answer: 'The period from 1924-1928 when the party struggled to gain support'
+    },
+    {
+        topicId: 'weimar-2-3',
+        question: 'Why did the Nazi Party do poorly in elections between 1924 and 1928?',
+        options: [
+            'Hitler was still in prison',
+            'The German economy was recovering under Stresemann',
+            'The party was banned',
+            'They did not have enough money to campaign'
+        ],
+        answer: 'The German economy was recovering under Stresemann'
+    },
+    {
+        topicId: 'weimar-2-3',
+        question: 'How did Hitler reorganise the Nazi Party after his release from prison?',
+        options: [
+            'He disbanded the SA',
+            'He set up a national party structure with local branches (Gaue)',
+            'He merged with the Communist party',
+            'He focused only on winning votes in Bavaria'
+        ],
+        answer: 'He set up a national party structure with local branches (Gaue)'
+    },
+    {
+        topicId: 'weimar-2-3',
+        question: 'What was the SS (Schutzstaffel) originally created for?',
+        options: [
+            'To fight in World War I',
+            'To act as Hitler\'s personal bodyguard',
+            'To run the concentration camps',
+            'To be the main party army instead of the SA'
+        ],
+        answer: 'To act as Hitler\'s personal bodyguard'
+    },
+    {
+        topicId: 'weimar-2-3',
+        question: 'In the 1928 election, what percentage of the vote did the Nazi Party win?',
+        options: [
+            'Less than 3%',
+            'Around 10%',
+            'Over 25%',
+            'Over 50%'
+        ],
+        answer: 'Less than 3%'
+    },
+    // Weimar and Nazi Germany - Topic 2.4
+    {
+        topicId: 'weimar-2-4',
+        question: 'The Wall Street Crash of October 1929 occurred in which city?',
+        options: [
+            'London',
+            'Berlin',
+            'Paris',
+            'New York'
+        ],
+        answer: 'New York'
+    },
+    {
+        topicId: 'weimar-2-4',
+        question: 'How did the Wall Street Crash affect Germany?',
+        options: [
+            'It had no effect',
+            'US banks demanded the repayment of loans, leading to business failures and mass unemployment',
+            'It caused hyperinflation to return',
+            'It led to a military coup'
+        ],
+        answer: 'US banks demanded the repayment of loans, leading to business failures and mass unemployment'
+    },
+    {
+        topicId: 'weimar-2-4',
+        question: 'By 1932, how many Germans were unemployed?',
+        options: [
+            '1 million',
+            '3 million',
+            '6 million',
+            '10 million'
+        ],
+        answer: '6 million'
+    },
+    {
+        topicId: 'weimar-2-4',
+        question: 'How did the Great Depression help the Nazis?',
+        options: [
+            'People lost faith in the Weimar government and turned to extremist parties',
+            'The Nazis offered simple solutions and a scapegoat (the Jews)',
+            'Nazi propaganda was very effective at exploiting the suffering',
+            'All of the above'
+        ],
+        answer: [
+            'People lost faith in the Weimar government and turned to extremist parties',
+            'The Nazis offered simple solutions and a scapegoat (the Jews)',
+            'Nazi propaganda was very effective at exploiting the suffering'
+        ]
+    },
+    {
+        topicId: 'weimar-2-4',
+        question: 'In the July 1932 election, the Nazis became the largest party in the Reichstag. How many seats did they win?',
+        options: [
+            '107',
+            '196',
+            '230',
+            '439'
+        ],
+        answer: '230'
+    },
+    // Weimar and Nazi Germany - Topic 2.5
+    {
+        topicId: 'weimar-2-5',
+        question: 'Who were the two key politicians involved in the "backroom deal" that made Hitler Chancellor?',
+        options: [
+            'Hindenburg and Ludendorff',
+            'Schleicher and von Papen',
+            'Ebert and Stresemann',
+            'Röhm and Goebbels'
+        ],
+        answer: 'Schleicher and von Papen'
+    },
+    {
+        topicId: 'weimar-2-5',
+        question: 'Why did President Hindenburg agree to appoint Hitler as Chancellor?',
+        options: [
+            'He was a secret Nazi supporter',
+            'Von Papen convinced him they could control Hitler and use him for their own ends',
+            'Hitler had won a majority in the election',
+            'The army demanded it'
+        ],
+        answer: 'Von Papen convinced him they could control Hitler and use him for their own ends'
+    },
+    {
+        topicId: 'weimar-2-5',
+        question: 'When Hitler was appointed Chancellor on 30th January 1933, how many other Nazis were in his cabinet of twelve?',
+        options: [
+            'None',
+            'Two',
+            'Six',
+            'All of them'
+        ],
+        answer: 'Two'
+    },
+    {
+        topicId: 'weimar-2-5',
+        question: 'What did von Papen famously say about Hitler\'s appointment?',
+        options: [
+            '"This is a victory for Germany!"',
+            '"We have hired him."',
+            '"This is the end of the Weimar Republic."',
+            '"I have no part in this."'
+        ],
+        answer: '"We have hired him."'
+    },
+    {
+        topicId: 'weimar-2-5',
+        question: 'What was von Papen\'s role in the new government?',
+        options: [
+            'He retired from politics',
+            'He was Minister of Defence',
+            'He was Vice-Chancellor',
+            'He became President'
+        ],
+        answer: 'He was Vice-Chancellor'
+    },
+    // Weimar and Nazi Germany - Topic 3.1
+    {
+        topicId: 'weimar-3-1',
+        question: 'The Reichstag Fire occurred in which month of 1933?',
+        options: [
+            'January',
+            'February',
+            'March',
+            'April'
+        ],
+        answer: 'February'
+    },
+    {
+        topicId: 'weimar-3-1',
+        question: 'Who was officially blamed for the Reichstag Fire?',
+        options: [
+            'The Social Democrats',
+            'A Dutch communist named Marinus van der Lubbe',
+            'The SA',
+            'The SS'
+        ],
+        answer: 'A Dutch communist named Marinus van der Lubbe'
+    },
+    {
+        topicId: 'weimar-3-1',
+        question: 'What was the "Decree for the Protection of People and State"?',
+        options: [
+            'A law that banned the Nazi party',
+            'An emergency decree that suspended civil liberties like freedom of speech and assembly',
+            'A law that gave Hitler dictatorial powers',
+            'A law that created the Gestapo'
+        ],
+        answer: 'An emergency decree that suspended civil liberties like freedom of speech and assembly'
+    },
+    {
+        topicId: 'weimar-3-1',
+        question: 'How did the Reichstag Fire Decree help the Nazis in the March 1933 election?',
+        options: [
+            'It allowed them to imprison thousands of political opponents, especially communists',
+            'It gave them more money for campaigning',
+            'It won them the support of the army',
+            'It made Hindenburg resign'
+        ],
+        answer: 'It allowed them to imprison thousands of political opponents, especially communists'
+    },
+    {
+        topicId: 'weimar-3-1',
+        question: 'In the March 1933 election, did the Nazis win a majority of seats on their own?',
+        options: [
+            'Yes, they won over two-thirds of the vote',
+            'Yes, they won just over 50%',
+            'No, they won 44% and still needed support from other parties',
+            'No, they actually lost seats'
+        ],
+        answer: 'No, they won 44% and still needed support from other parties'
+    },
+    // Weimar and Nazi Germany - Topic 3.2
+    {
+        topicId: 'weimar-3-2',
+        question: 'What was the official name of the Enabling Act?',
+        options: [
+            'The Law for the Protection of German Blood and Honour',
+            'The Law to Remedy the Distress of the People and the Reich',
+            'The Law for the Restoration of the Professional Civil Service',
+            'The Nuremberg Law'
+        ],
+        answer: 'The Law to Remedy the Distress of the People and the Reich'
+    },
+    {
+        topicId: 'weimar-3-2',
+        question: 'What power did the Enabling Act give Hitler?',
+        options: [
+            'The power to make laws without the Reichstag\'s approval for four years',
+            'The power to ban the Communist Party',
+            'The power to become President',
+            'The power to command the army'
+        ],
+        answer: 'The power to make laws without the Reichstag\'s approval for four years'
+    },
+    {
+        topicId: 'weimar-3-2',
+        question: 'How did Hitler get the two-thirds majority in the Reichstag needed to pass the Enabling Act?',
+        options: [
+            'By arresting all the communist deputies and intimidating the Social Democrats',
+            'By forming a coalition with the Catholic Centre Party',
+            'By promising to respect the rights of the church',
+            'All of the above'
+        ],
+        answer: [
+            'By arresting all the communist deputies and intimidating the Social Democrats',
+            'By forming a coalition with the Catholic Centre Party',
+            'By promising to respect the rights of the church'
+        ]
+    },
+    {
+        topicId: 'weimar-3-2',
+        question: 'Which party bravely voted against the Enabling Act?',
+        options: [
+            'The Communist Party (KPD)',
+            'The Catholic Centre Party (Zentrum)',
+            'The Social Democratic Party (SPD)',
+            'The Nationalist Party (DNVP)'
+        ],
+        answer: 'The Social Democratic Party (SPD)'
+    },
+    {
+        topicId: 'weimar-3-2',
+        question: 'With the Enabling Act, Germany was effectively no longer a democracy. It had become a...',
+        options: [
+            'Monarchy',
+            'Dictatorship',
+            'Republic',
+            'Theocracy'
+        ],
+        answer: 'Dictatorship'
+    },
+    // Weimar and Nazi Germany - Topic 3.3
+    {
+        topicId: 'weimar-3-3',
+        question: 'The Night of the Long Knives occurred on what date?',
+        options: [
+            '30th January 1933',
+            '27th February 1933',
+            '30th June 1934',
+            '2nd August 1934'
+        ],
+        answer: '30th June 1934'
+    },
+    {
+        topicId: 'weimar-3-3',
+        question: 'Who was the main target of the Night of the Long Knives?',
+        options: [
+            'Joseph Goebbels',
+            'Heinrich Himmler',
+            'Ernst Röhm and the leadership of the SA',
+            'The Communist Party'
+        ],
+        answer: 'Ernst Röhm and the leadership of the SA'
+    },
+    {
+        topicId: 'weimar-3-3',
+        question: 'Why did Hitler decide to purge the SA?',
+        options: [
+            'The SA was becoming too powerful and Röhm wanted to merge it with the army',
+            'The regular army leaders feared and distrusted the SA',
+            'Röhm was a potential rival to Hitler',
+            'All of the above'
+        ],
+        answer: [
+            'The SA was becoming too powerful and Röhm wanted to merge it with the army',
+            'The regular army leaders feared and distrusted the SA',
+            'Röhm was a potential rival to Hitler'
+        ]
+    },
+    {
+        topicId: 'weimar-3-3',
+        question: 'Which organisation carried out the murders during the Night of the Long Knives?',
+        options: [
+            'The regular police',
+            'The SA',
+            'The SS, under Himmler\'s command',
+            'The Hitler Youth'
+        ],
+        answer: 'The SS, under Himmler\'s command'
+    },
+    {
+        topicId: 'weimar-3-3',
+        question: 'What happened to the army after the Night of the Long Knives?',
+        options: [
+            'They rebelled against Hitler',
+            'They were disbanded',
+            'The leaders swore an oath of personal loyalty to Hitler',
+            'They were merged with the SS'
+        ],
+        answer: 'The leaders swore an oath of personal loyalty to Hitler'
+    },
+    // Weimar and Nazi Germany - Topic 3.4
+    {
+        topicId: 'weimar-3-4',
+        question: 'Who was the leader of the SS?',
+        options: [
+            'Ernst Röhm',
+            'Hermann Göring',
+            'Reinhard Heydrich',
+            'Heinrich Himmler'
+        ],
+        answer: 'Heinrich Himmler'
+    },
+    {
+        topicId: 'weimar-3-4',
+        question: 'What was the Gestapo?',
+        options: [
+            'The Nazi party\'s propaganda department',
+            'Hitler\'s personal bodyguards',
+            'The secret state police',
+            'The criminal investigation department'
+        ],
+        answer: 'The secret state police'
+    },
+    {
+        topicId: 'weimar-3-4',
+        question: 'The SD (Sicherheitsdienst) was the intelligence agency of which organisation?',
+        options: [
+            'The Army',
+            'The Nazi Party and the SS',
+            'The Foreign Ministry',
+            'The Police'
+        ],
+        answer: 'The Nazi Party and the SS'
+    },
+    {
+        topicId: 'weimar-3-4',
+        question: 'Where was the first Nazi concentration camp established?',
+        options: [
+            'Auschwitz',
+            'Bergen-Belsen',
+            'Dachau',
+            'Treblinka'
+        ],
+        answer: 'Dachau'
+    },
+    {
+        topicId: 'weimar-3-4',
+        question: 'How did the Nazis control the legal system?',
+        options: [
+            'They replaced existing judges with loyal Nazis',
+            'They set up the People\'s Court for treason cases',
+            'They forced all lawyers to join the Nazi Lawyers\' Association',
+            'All of the above'
+        ],
+        answer: [
+            'They replaced existing judges with loyal Nazis',
+            'They set up the People\'s Court for treason cases',
+            'They forced all lawyers to join the Nazi Lawyers\' Association'
+        ]
+    },
+    // Weimar and Nazi Germany - Topic 3.5
+    {
+        topicId: 'weimar-3-5',
+        question: 'The "Reich Chamber of Culture" was set up to control all aspects of culture. Who was in charge of it?',
+        options: [
+            'Adolf Hitler',
+            'Heinrich Himmler',
+            'Hermann Göring',
+            'Joseph Goebbels'
+        ],
+        answer: 'Joseph Goebbels'
+    },
+    {
+        topicId: 'weimar-3-5',
+        question: 'What did the Nazis do with books they disapproved of?',
+        options: [
+            'They edited them',
+            'They sold them abroad',
+            'They held public book burnings',
+            'They locked them away in a secret library'
+        ],
+        answer: 'They held public book burnings'
+    },
+    {
+        topicId: 'weimar-3-5',
+        question: 'What was the purpose of the annual Nuremberg Rallies?',
+        options: [
+            'To hold a national sports competition',
+            'To create a sense of unity and show off the power and strength of the Nazi regime',
+            'To allow political debate',
+            'To hold secret meetings of the Nazi leadership'
+        ],
+        answer: 'To create a sense of unity and show off the power and strength of the Nazi regime'
+    },
+    {
+        topicId: 'weimar-3-5',
+        question: 'How did the Nazis use radio as a tool of propaganda?',
+        options: [
+            'They banned radios',
+            'They produced cheap radios so that more Germans could hear Hitler\'s speeches',
+            'They only allowed music to be played on the radio',
+            'They broadcast foreign news to show Germany was superior'
+        ],
+        answer: 'They produced cheap radios so that more Germans could hear Hitler\'s speeches'
+    },
+    {
+        topicId: 'weimar-3-5',
+        question: 'The 1936 Olympic Games were held in which German city?',
+        options: [
+            'Munich',
+            'Hamburg',
+            'Berlin',
+            'Nuremberg'
+        ],
+        answer: 'Berlin'
+    },
+    // Weimar and Nazi Germany - Topic 4.1
+    {
+        topicId: 'weimar-4-1',
+        question: 'What does "Kinder, Küche, Kirche" mean?',
+        options: [
+            'Children, Kitchen, Church',
+            'Combat, Courage, Country',
+            'Cars, Cooking, Cinema',
+            'Cash, Castles, Colonies'
+        ],
+        answer: 'Children, Kitchen, Church'
+    },
+    {
+        topicId: 'weimar-4-1',
+        question: 'What was the "Law for the Encouragement of Marriage"?',
+        options: [
+            'It banned divorce',
+            'It gave newly married couples a loan, and they could keep some of the money for each child they had',
+            'It forced women to get married by age 25',
+            'It paid women to stay at home'
+        ],
+        answer: 'It gave newly married couples a loan, and they could keep some of the money for each child they had'
+    },
+    {
+        topicId: 'weimar-4-1',
+        question: 'What was the "Lebensborn" (Fountain of Life) programme?',
+        options: [
+            'A health insurance scheme',
+            'A programme where unmarried Aryan women were encouraged to have children with SS officers',
+            'A project to improve German water supplies',
+            'A fitness programme for women'
+        ],
+        answer: 'A programme where unmarried Aryan women were encouraged to have children with SS officers'
+    },
+    {
+        topicId: 'weimar-4-1',
+        question: 'Which jobs were women, especially married women, encouraged or forced to leave?',
+        options: [
+            'Farming and factory work',
+            'Nursing and childcare',
+            'Professional jobs like doctors, lawyers and civil servants',
+            'All jobs outside the home'
+        ],
+        answer: 'Professional jobs like doctors, lawyers and civil servants'
+    },
+    {
+        topicId: 'weimar-4-1',
+        question: 'What was the German Women\'s Enterprise (DFW)?',
+        options: [
+            'A feminist organisation that opposed the Nazis',
+            'A Nazi organisation that all women\'s groups had to join, used to spread Nazi ideas about women',
+            'A business run by women',
+            'A military unit for women'
+        ],
+        answer: 'A Nazi organisation that all women\'s groups had to join, used to spread Nazi ideas about women'
+    },
+    // Weimar and Nazi Germany - Topic 4.2
+    {
+        topicId: 'weimar-4-2',
+        question: 'What was the main Nazi youth group for girls called?',
+        options: [
+            'The Hitler Youth',
+            'The League of German Maidens',
+            'The Young Girls\' League',
+            'The Faith and Beauty Society'
+        ],
+        answer: 'The League of German Maidens'
+    },
+    {
+        topicId: 'weimar-4-2',
+        question: 'What was the main purpose of Nazi control over education?',
+        options: [
+            'To improve academic standards',
+            'To indoctrinate children with Nazi ideology',
+            'To teach children practical skills for farming',
+            'To encourage free thinking and debate'
+        ],
+        answer: 'To indoctrinate children with Nazi ideology'
+    },
+    {
+        topicId: 'weimar-4-2',
+        question: 'Which school subject became the most important under the Nazis?',
+        options: [
+            'Maths',
+            'Religious Studies',
+            'Physical Education (PE)',
+            'Latin'
+        ],
+        answer: 'Physical Education (PE)'
+    },
+    {
+        topicId: 'weimar-4-2',
+        question: 'What was the name of the elite boarding schools set up for future Nazi leaders?',
+        options: [
+            'Gymnasiums',
+            'Realschule',
+            'Napolas (National Political Educational Institutes)',
+            'The Hitler Schools'
+        ],
+        answer: 'Napolas (National Political Educational Institutes)'
+    },
+    {
+        topicId: 'weimar-4-2',
+        question: 'Which youth group was an example of opposition to the Nazis?',
+        options: [
+            'The Hitler Youth',
+            'The League of German Maidens',
+            'The Edelweiss Pirates',
+            'The German Young Folk'
+        ],
+        answer: 'The Edelweiss Pirates'
+    },
+    // Weimar and Nazi Germany - Topic 4.3
+    {
+        topicId: 'weimar-4-3',
+        question: 'What was the RAD (Reich Labour Service)?',
+        options: [
+            'A scheme that provided cheap holidays for workers',
+            'A scheme that gave loans to small businesses',
+            'A scheme that made it compulsory for young men to do 6 months of labour service',
+            'The German trade union'
+        ],
+        answer: 'A scheme that made it compulsory for young men to do 6 months of labour service'
+    },
+    {
+        topicId: 'weimar-4-3',
+        question: 'How did the Nazis reduce unemployment figures?',
+        options: [
+            'Rearmament and public works projects like building autobahns',
+            'Forcing women and Jews out of jobs',
+            'Introducing conscription',
+            'All of the above'
+        ],
+        answer: [
+            'Rearmament and public works projects like building autobahns',
+            'Forcing women and Jews out of jobs',
+            'Introducing conscription'
+        ]
+    },
+    {
+        topicId: 'weimar-4-3',
+        question: 'What was the DAF (German Labour Front)?',
+        options: [
+            'An organisation that provided free legal advice to workers',
+            'A Nazi organisation that replaced all trade unions',
+            'A secret opposition group for workers',
+            'A scheme to encourage workers to save money'
+        ],
+        answer: 'A Nazi organisation that replaced all trade unions'
+    },
+    {
+        topicId: 'weimar-4-3',
+        question: 'What was the purpose of the "Beauty of Labour" (SdA) organisation?',
+        options: [
+            'To run beauty pageants for German women',
+            'To encourage factory owners to improve working conditions',
+            'To design Nazi uniforms and flags',
+            'To promote German art'
+        ],
+        answer: 'To encourage factory owners to improve working conditions'
+    },
+    {
+        topicId: 'weimar-4-3',
+        question: 'While unemployment fell, what happened to the average German worker?',
+        options: [
+            'Their wages increased significantly',
+            'They had more rights and could go on strike',
+            'They lost their rights, and wages were often lower than before the Depression',
+            'They were all given a Volkswagen car'
+        ],
+        answer: 'They lost their rights, and wages were often lower than before the Depression'
+    },
+    // Weimar and Nazi Germany - Topic 4.4
+    {
+        topicId: 'weimar-4-4',
+        question: 'What is meant by the term "Untermenschen"?',
+        options: [
+            'Supermen',
+            'Sub-humans',
+            'Aryans',
+            'The master race'
+        ],
+        answer: 'Sub-humans'
+    },
+    {
+        topicId: 'weimar-4-4',
+        question: 'Which groups were persecuted by the Nazis as "undesirables"?',
+        options: [
+            'Homosexuals',
+            'Gypsies (Roma)',
+            'The disabled',
+            'All of the above'
+        ],
+        answer: [
+            'Homosexuals',
+            'Gypsies (Roma)',
+            'The disabled'
+        ]
+    },
+    {
+        topicId: 'weimar-4-4',
+        question: 'What did the Nuremberg Laws of 1935 do?',
+        options: [
+            'They forced all Jews to emigrate',
+            'They banned Jews from certain professions',
+            'They deprived Jews of German citizenship and banned marriage between Jews and Aryans',
+            'They ordered the confiscation of all Jewish property'
+        ],
+        answer: 'They deprived Jews of German citizenship and banned marriage between Jews and Aryans'
+    },
+    {
+        topicId: 'weimar-4-4',
+        question: 'What was Kristallnacht (9-10 November 1938)?',
+        options: [
+            'A national holiday celebrating Hitler',
+            'A night of organised violence against Jews, their synagogues, and businesses',
+            'The opening of the Berlin Olympics',
+            'The signing of the Munich Agreement'
+        ],
+        answer: 'A night of organised violence against Jews, their synagogues, and businesses'
+    },
+    {
+        topicId: 'weimar-4-4',
+        question: 'What were Jews forced to wear from 1938 onwards?',
+        options: [
+            'A special uniform',
+            'An armband with the Star of David',
+            'A yellow Star of David patch',
+            'Nothing different from other Germans'
+        ],
+        answer: 'A yellow Star of David patch'
+    },
+    // Medicine - Topic 1.1
+    {
+        topicId: 'medicine-1-1',
+        question: 'In the medieval period, what was the most common explanation for disease?',
+        options: [
+            'Germs and viruses',
+            'Punishment from God',
+            'Genetic disorders',
+            'Poor hygiene'
+        ],
+        answer: 'Punishment from God'
+    },
+    {
+        topicId: 'medicine-1-1',
+        question: 'What is astrology in the context of medieval medicine?',
+        options: [
+            'The study of plants for remedies',
+            'The belief that the alignment of planets and stars caused disease',
+            'The dissection of bodies to understand anatomy',
+            'The use of prayer to heal the sick'
+        ],
+        answer: 'The belief that the alignment of planets and stars caused disease'
+    },
+    {
+        topicId: 'medicine-1-1',
+        question: 'The Church was the center of medical learning in the Middle Ages. What was a major disadvantage of this?',
+        options: [
+            'They had no money for hospitals',
+            'They focused only on spiritual healing',
+            'They promoted the ideas of Galen and banned dissection, which slowed progress',
+            'They charged too much for treatment'
+        ],
+        answer: 'They promoted the ideas of Galen and banned dissection, which slowed progress'
+    },
+    {
+        topicId: 'medicine-1-1',
+        question: 'A "leper" was someone suffering from which disease?',
+        options: [
+            'The Black Death',
+            'Smallpox',
+            'Leprosy',
+            'Tuberculosis'
+        ],
+        answer: 'Leprosy'
+    },
+    {
+        topicId: 'medicine-1-1',
+        question: 'Why did the Church approve of Galen\'s ideas?',
+        options: [
+            'Galen was a Christian',
+            'His ideas could be made to fit with Christian beliefs, such as the idea of a single creator',
+            'He discovered prayer could heal people',
+            'His books were the only ones available'
+        ],
+        answer: 'His ideas could be made to fit with Christian beliefs, such as the idea of a single creator'
+    },
+    // Medicine - Topic 1.2
+    {
+        topicId: 'medicine-1-2',
+        question: 'What was the "Theory of the Four Humours"?',
+        options: [
+            'A belief that disease was caused by bad smells',
+            'A theory that the body was made of four substances that needed to be balanced',
+            'A religious belief that illness was a punishment from God',
+            'A method for amputating limbs'
+        ],
+        answer: 'A theory that the body was made of four substances that needed to be balanced'
+    },
+    {
+        topicId: 'medicine-1-2',
+        question: 'Which of these is NOT one of the Four Humours?',
+        options: [
+            'Blood',
+            'Phlegm',
+            'Water',
+            'Black Bile'
+        ],
+        answer: 'Water'
+    },
+    {
+        topicId: 'medicine-1-2',
+        question: 'The Theory of the Four Humours originated with which ancient Greek doctor?',
+        options: [
+            'Aristotle',
+            'Plato',
+            'Hippocrates',
+            'Socrates'
+        ],
+        answer: 'Hippocrates'
+    },
+    {
+        topicId: 'medicine-1-2',
+        question: 'What was the "Theory of Opposites", developed by Galen, used for?',
+        options: [
+            'To diagnose disease',
+            'To treat an imbalance of the humours',
+            'To explain how disease was spread',
+            'To perform surgery'
+        ],
+        answer: 'To treat an imbalance of the humours'
+    },
+    {
+        topicId: 'medicine-1-2',
+        question: 'What does the term "Miasma" mean?',
+        options: [
+            'A balance of humours',
+            'Bad air believed to be filled with harmful fumes',
+            'A type of herbal remedy',
+            'A surgical instrument'
+        ],
+        answer: 'Bad air believed to be filled with harmful fumes'
+    },
+    // Medicine - Topic 1.3
+    {
+        topicId: 'medicine-1-3',
+        question: 'Which of these was NOT a common treatment in medieval England?',
+        options: [
+            'Bloodletting',
+            'Herbal remedies',
+            'Prayer',
+            'Antibiotics'
+        ],
+        answer: 'Antibiotics'
+    },
+    {
+        topicId: 'medicine-1-3',
+        question: 'What was the job of an "Apothecary" in medieval times?',
+        options: [
+            'To perform complex surgery',
+            'To diagnose illnesses by studying stars',
+            'To prepare and sell medicines and herbs',
+            'To run hospitals'
+        ],
+        answer: 'To prepare and sell medicines and herbs'
+    },
+    {
+        topicId: 'medicine-1-3',
+        question: 'What was a "barber surgeon"?',
+        options: [
+            'A highly trained university doctor',
+            'Someone who performed minor surgery, pulled teeth, and cut hair',
+            'A monk who cared for the sick in a monastery',
+            'A female healer who used herbal remedies'
+        ],
+        answer: 'Someone who performed minor surgery, pulled teeth, and cut hair'
+    },
+    {
+        topicId: 'medicine-1-3',
+        question: 'Most hospitals in the medieval period were run by...',
+        options: [
+            'The king',
+            'The local council',
+            'The Church (monks and nuns)',
+            'Wealthy merchants'
+        ],
+        answer: 'The Church (monks and nuns)'
+    },
+    {
+        topicId: 'medicine-1-3',
+        question: 'What was "trepanning"?',
+        options: [
+            'A type of herbal tea',
+            'A form of prayer',
+            'Drilling a hole into the skull',
+            'A way of balancing the humours'
+        ],
+        answer: 'Drilling a hole into the skull'
+    },
+    // Medicine - Topic 1.4
+    {
+        topicId: 'medicine-1-4',
+        question: 'The Black Death was a pandemic of which disease?',
+        options: [
+            'Smallpox',
+            'Bubonic Plague',
+            'Cholera',
+            'Influenza'
+        ],
+        answer: 'Bubonic Plague'
+    },
+    {
+        topicId: 'medicine-1-4',
+        question: 'What was a common belief about how the Black Death spread?',
+        options: [
+            'Through contaminated water',
+            'Through the air as a miasma',
+            'Through bacteria on fleas',
+            'Through human contact'
+        ],
+        answer: 'Through the air as a miasma'
+    },
+    {
+        topicId: 'medicine-1-4',
+        question: 'What proportion of the population of England is estimated to have died during the Black Death?',
+        options: [
+            'About one-tenth',
+            'About one-quarter',
+            'Between one-third and one-half',
+            'Over two-thirds'
+        ],
+        answer: 'Between one-third and one-half'
+    },
+    {
+        topicId: 'medicine-1-4',
+        question: 'Which of these was a common "treatment" for the Black Death?',
+        options: [
+            'Applying a mixture of butter, onion and garlic to the buboes',
+            'Lancing the buboes',
+            'Drinking vinegar',
+            'All of the above'
+        ],
+        answer: [
+            'Applying a mixture of butter, onion and garlic to the buboes',
+            'Lancing the buboes',
+            'Drinking vinegar'
+        ]
+    },
+    {
+        topicId: 'medicine-1-4',
+        question: 'What was a major social consequence of the Black Death?',
+        options: [
+            'The power of the King increased',
+            'The Church became more powerful',
+            'There was a shortage of workers, leading to higher wages and the collapse of the feudal system',
+            'Medical knowledge improved dramatically'
+        ],
+        answer: 'There was a shortage of workers, leading to higher wages and the collapse of the feudal system'
+    },
+    // Medicine - Topic 2.1
+    {
+        topicId: 'medicine-2-1',
+        question: 'During the Renaissance, what invention helped spread new medical ideas more quickly?',
+        options: [
+            'The steam engine',
+            'The printing press',
+            'The microscope',
+            'The telescope'
+        ],
+        answer: 'The printing press'
+    },
+    {
+        topicId: 'medicine-2-1',
+        question: 'What new idea about disease became more popular during the Renaissance, suggesting disease could be a separate thing from the patient?',
+        options: [
+            'The Germ Theory',
+            'The concept of "seeds" of disease spreading in the air',
+            'The Miasma Theory',
+            'The Theory of Transference'
+        ],
+        answer: 'The concept of "seeds" of disease spreading in the air'
+    },
+    {
+        topicId: 'medicine-2-1',
+        question: 'Despite new discoveries, what traditional theory of disease remained the most dominant in the Renaissance?',
+        options: [
+            'The Theory of the Four Humours',
+            'Supernatural explanations',
+            'The Germ Theory',
+            'Astrology'
+        ],
+        answer: 'The Theory of the Four Humours'
+    },
+    {
+        topicId: 'medicine-2-1',
+        question: 'Who was a famous English physician who emphasized observation and practical experience over just reading old books?',
+        options: [
+            'William Harvey',
+            'Thomas Sydenham',
+            'Andreas Vesalius',
+            'Paracelsus'
+        ],
+        answer: 'Thomas Sydenham'
+    },
+    {
+        topicId: 'medicine-2-1',
+        question: 'What is a "quack doctor"?',
+        options: [
+            'A doctor who specializes in treating birds',
+            'A highly qualified physician',
+            'Someone who sells fake or unproven medicines',
+            'A doctor who works in a hospital'
+        ],
+        answer: 'Someone who sells fake or unproven medicines'
+    },
+    // Medicine - Topic 2.2
+    {
+        topicId: 'medicine-2-2',
+        question: 'Who wrote "On the Fabric of the Human Body" in 1543?',
+        options: [
+            'William Harvey',
+            'Galen',
+            'Andreas Vesalius',
+            'Hippocrates'
+        ],
+        answer: 'Andreas Vesalius'
+    },
+    {
+        topicId: 'medicine-2-2',
+        question: 'How did Vesalius prove many of Galen\'s anatomical theories were wrong?',
+        options: [
+            'Through chemical experiments',
+            'By performing dissections on human bodies himself',
+            'Through using a microscope',
+            'By reading older, more accurate texts'
+        ],
+        answer: 'By performing dissections on human bodies himself'
+    },
+    {
+        topicId: 'medicine-2-2',
+        question: 'Vesalius corrected Galen on which point?',
+        options: [
+            'The human jawbone is one bone, not two',
+            'The heart has four chambers',
+            'Blood circulates around the body',
+            'Germs cause disease'
+        ],
+        answer: 'The human jawbone is one bone, not two'
+    },
+    {
+        topicId: 'medicine-2-2',
+        question: 'Why was Vesalius\'s work significant?',
+        options: [
+            'It proved all of Galen\'s ideas were wrong',
+            'It led to immediate cures for many diseases',
+            'It encouraged doctors to question old ideas and perform their own dissections',
+            'It proved the Four Humours theory was correct'
+        ],
+        answer: 'It encouraged doctors to question old ideas and perform their own dissections'
+    },
+    {
+        topicId: 'medicine-2-2',
+        question: 'Where did Vesalius get bodies to dissect?',
+        options: [
+            'He bought them from hospitals',
+            'He used the bodies of executed criminals',
+            'He dug them up from graveyards',
+            'He used animal bodies'
+        ],
+        answer: 'He used the bodies of executed criminals'
+    },
+    // Medicine - Topic 2.3
+    {
+        topicId: 'medicine-2-3',
+        question: 'What did William Harvey discover?',
+        options: [
+            'The existence of germs',
+            'That blood circulates around the body, pumped by the heart',
+            'The process of vaccination',
+            'The use of antiseptics'
+        ],
+        answer: 'That blood circulates around the body, pumped by the heart'
+    },
+    {
+        topicId: 'medicine-2-3',
+        question: 'Before Harvey, whose theory about blood was widely believed?',
+        options: [
+            'Hippocrates, who said blood was a humour',
+            'Vesalius, who said blood was made in the heart',
+            'Galen, who said new blood was constantly made in the liver and burned up in the body',
+            'Aristotle, who said blood was made of air'
+        ],
+        answer: 'Galen, who said new blood was constantly made in the liver and burned up in the body'
+    },
+    {
+        topicId: 'medicine-2-3',
+        question: 'What technology was NOT available to Harvey, meaning he couldn\'t fully prove his theory?',
+        options: [
+            'The printing press',
+            'The stethoscope',
+            'The microscope (to see capillaries)',
+            'The thermometer'
+        ],
+        answer: 'The microscope (to see capillaries)'
+    },
+    {
+        topicId: 'medicine-2-3',
+        question: 'How did Harvey prove his theory?',
+        options: [
+            'By dissecting human bodies and experimenting on cold-blooded animals',
+            'By measuring the amount of blood pumped by the heart',
+            'By trying to pump liquids past the valves in veins',
+            'All of the above'
+        ],
+        answer: [
+            'By dissecting human bodies and experimenting on cold-blooded animals',
+            'By measuring the amount of blood pumped by the heart',
+            'By trying to pump liquids past the valves in veins'
+        ]
+    },
+    {
+        topicId: 'medicine-2-3',
+        question: 'Why was Harvey\'s discovery not immediately useful for treating patients?',
+        options: [
+            'It didn\'t help explain the cause of disease',
+            'Blood transfusions were not yet possible',
+            'Doctors refused to believe him',
+            'Both A and B'
+        ],
+        answer: 'Both A and B'
+    },
+    // Medicine - Topic 2.4
+    {
+        topicId: 'medicine-2-4',
+        question: 'The Great Plague of London happened in what year?',
+        options: [
+            '1565',
+            '1603',
+            '1665',
+            '1688'
+        ],
+        answer: '1665'
+    },
+    {
+        topicId: 'medicine-2-4',
+        question: 'How was the Great Plague different from the Black Death of 1348?',
+        options: [
+            'It was a different disease',
+            'It was much less deadly',
+            'There was a more organised response, with local governments taking action like quarantining houses',
+            'It only affected London'
+        ],
+        answer: 'There was a more organised response, with local governments taking action like quarantining houses'
+    },
+    {
+        topicId: 'medicine-2-4',
+        question: 'What action did the authorities take during the Great Plague?',
+        options: [
+            'They appointed searchers to identify and report plague victims',
+            'They closed public places like theatres',
+            'They painted a red cross on the doors of infected houses',
+            'All of the above'
+        ],
+        answer: [
+            'They appointed searchers to identify and report plague victims',
+            'They closed public places like theatres',
+            'They painted a red cross on the doors of infected houses'
+        ]
+    },
+    {
+        topicId: 'medicine-2-4',
+        question: 'What popular, but wrong, theory about the cause of the plague persisted in 1665?',
+        options: [
+            'The Miasma Theory',
+            'The Germ Theory',
+            'The Theory of Contagion',
+            'The Theory of Spontaneous Generation'
+        ],
+        answer: 'The Miasma Theory'
+    },
+    {
+        topicId: 'medicine-2-4',
+        question: 'What major event in 1666 helped to end the Great Plague in London?',
+        options: [
+            'A great flood',
+            'The Great Fire of London, which destroyed many rat-infested houses',
+            'The arrival of a new medicine',
+            'A peace treaty was signed'
+        ],
+        answer: 'The Great Fire of London, which destroyed many rat-infested houses'
+    },
+    // Medicine - Topic 3.1
+    {
+        topicId: 'medicine-3-1',
+        question: 'Who is credited with developing the first vaccine, which was for smallpox?',
+        options: [
+            'Louis Pasteur',
+            'Robert Koch',
+            'Edward Jenner',
+            'Joseph Lister'
+        ],
+        answer: 'Edward Jenner'
+    },
+    {
+        topicId: 'medicine-3-1',
+        question: 'What observation led Jenner to his discovery?',
+        options: [
+            'He noticed that people who drank beer didn\'t get cholera',
+            'He noticed that milkmaids who got cowpox didn\'t get smallpox',
+            'He saw that people who lived in the countryside were healthier',
+            'He observed germs under a microscope'
+        ],
+        answer: 'He noticed that milkmaids who got cowpox didn\'t get smallpox'
+    },
+    {
+        topicId: 'medicine-3-1',
+        question: 'How did Jenner test his theory?',
+        options: [
+            'He gave his son a dose of smallpox',
+            'He injected a boy with pus from a cowpox sore, and then later with smallpox',
+            'He published his ideas and waited for others to test them',
+            'He gave cowpox to a large group of prisoners'
+        ],
+        answer: 'He injected a boy with pus from a cowpox sore, and then later with smallpox'
+    },
+    {
+        topicId: 'medicine-3-1',
+        question: 'Why was there opposition to Jenner\'s vaccine?',
+        options: [
+            'People were worried about being given a disease from an animal',
+            'The Church said it was unnatural',
+            'Other doctors were making money from older, less effective treatments',
+            'All of the above'
+        ],
+        answer: [
+            'People were worried about being given a disease from an animal',
+            'The Church said it was unnatural',
+            'Other doctors were making money from older, less effective treatments'
+        ]
+    },
+    {
+        topicId: 'medicine-3-1',
+        question: 'In what year did the British government make smallpox vaccination compulsory?',
+        options: [
+            '1798',
+            '1802',
+            '1853',
+            '1871'
+        ],
+        answer: '1853'
+    },
+    // Medicine - Topic 3.2
+    {
+        topicId: 'medicine-3-2',
+        question: 'Louis Pasteur\'s Germ Theory, published in 1861, argued that...',
+        options: [
+            'Disease was caused by an imbalance of humours',
+            'Disease was caused by bad air (miasma)',
+            'Disease was caused by microscopic organisms',
+            'Disease was a punishment from God'
+        ],
+        answer: 'Disease was caused by microscopic organisms'
+    },
+    {
+        topicId: 'medicine-3-2',
+        question: 'What theory did Germ Theory replace?',
+        options: [
+            'The Theory of the Four Humours',
+            'The Theory of Spontaneous Generation',
+            'Miasma Theory',
+            'All of the above'
+        ],
+        answer: 'All of the above'
+    },
+    {
+        topicId: 'medicine-3-2',
+        question: 'What industry first hired Pasteur to investigate why their product was going sour?',
+        options: [
+            'The wine and beer industry',
+            'The milk industry',
+            'The silk industry',
+            'The perfume industry'
+        ],
+        answer: 'The wine and beer industry'
+    },
+    {
+        topicId: 'medicine-3-2',
+        question: 'What process, named after Pasteur, involves heating a liquid to kill microbes?',
+        options: [
+            'Pasteurisation',
+            'Fermentation',
+            'Vaccination',
+            'Inoculation'
+        ],
+        answer: 'Pasteurisation'
+    },
+    {
+        topicId: 'medicine-3-2',
+        question: 'Pasteur\'s work was a major turning point because...',
+        options: [
+            'It immediately cured all diseases',
+            'It provided a proven scientific link between germs and disease, which led to future discoveries',
+            'It proved that all diseases were caused by bacteria',
+            'It made him very famous'
+        ],
+        answer: 'It provided a proven scientific link between germs and disease, which led to future discoveries'
+    },
+    // Medicine - Topic 3.3
+    {
+        topicId: 'medicine-3-3',
+        question: 'Who identified the specific bacteria that caused tuberculosis?',
+        options: [
+            'Louis Pasteur',
+            'Edward Jenner',
+            'Robert Koch',
+            'Joseph Lister'
+        ],
+        answer: 'Robert Koch'
+    },
+    {
+        topicId: 'medicine-3-3',
+        question: 'Robert Koch developed a method for what?',
+        options: [
+            'Growing and staining bacteria so they could be identified under a microscope',
+            'Vaccinating against smallpox',
+            'Performing antiseptic surgery',
+            'Producing cheap medicine'
+        ],
+        answer: 'Growing and staining bacteria so they could be identified under a microscope'
+    },
+    {
+        topicId: 'medicine-3-3',
+        question: 'The rivalry between Pasteur (French) and Koch (German) was fuelled by what event?',
+        options: [
+            'The Napoleonic Wars',
+            'The Franco-Prussian War of 1870-71',
+            'World War I',
+            'The Scramble for Africa'
+        ],
+        answer: 'The Franco-Prussian War of 1870-71'
+    },
+    {
+        topicId: 'medicine-3-3',
+        question: 'Koch\'s work was important because it...',
+        options: [
+            'Proved Germ Theory was wrong',
+            'Allowed scientists to target and attack specific germs that caused specific diseases',
+            'Discovered the first antibiotic',
+            'Showed that hygiene was not important'
+        ],
+        answer: 'Allowed scientists to target and attack specific germs that caused specific diseases'
+    },
+    {
+        topicId: 'medicine-3-3',
+        question: 'What was the first bacterium Koch identified?',
+        options: [
+            'Tuberculosis',
+            'Cholera',
+            'Typhoid',
+            'Anthrax'
+        ],
+        answer: 'Anthrax'
+    },
+    // Medicine - Topic 3.4
+    {
+        topicId: 'medicine-3-4',
+        question: 'What was the main problem with surgery before the 19th century?',
+        options: [
+            'Pain, infection, and bleeding',
+            'Lack of trained surgeons',
+            'Cost of operations',
+            'Religious objections'
+        ],
+        answer: 'Pain, infection, and bleeding'
+    },
+    {
+        topicId: 'medicine-3-4',
+        question: 'Who discovered the anaesthetic properties of chloroform?',
+        options: [
+            'Humphry Davy',
+            'Horace Wells',
+            'James Simpson',
+            'Robert Liston'
+        ],
+        answer: 'James Simpson'
+    },
+    {
+        topicId: 'medicine-3-4',
+        question: 'Joseph Lister is known as the father of what?',
+        options: [
+            'Anaesthetics',
+            'Vaccination',
+            'Antiseptic surgery',
+            'Bacteriology'
+        ],
+        answer: 'Antiseptic surgery'
+    },
+    {
+        topicId: 'medicine-3-4',
+        question: 'What chemical did Lister use as an antiseptic?',
+        options: [
+            'Alcohol',
+            'Chlorine',
+            'Carbolic acid',
+            'Iodine'
+        ],
+        answer: 'Carbolic acid'
+    },
+    {
+        topicId: 'medicine-3-4',
+        question: 'Why were some surgeons opposed to Lister\'s antiseptic methods?',
+        options: [
+            'The carbolic spray was unpleasant to use',
+            'They didn\'t believe in Germ Theory',
+            'It slowed down operations',
+            'All of the above'
+        ],
+        answer: [
+            'The carbolic spray was unpleasant to use',
+            'They didn\'t believe in Germ Theory',
+            'It slowed down operations'
+        ]
+    },
+    // Medicine - Topic 3.5
+    {
+        topicId: 'medicine-3-5',
+        question: 'What did John Snow discover about the 1854 cholera outbreak in London?',
+        options: [
+            'It was spread by touch',
+            'It was spread by bad air',
+            'It was spread by contaminated water from a pump on Broad Street',
+            'It was not contagious'
+        ],
+        answer: 'It was spread by contaminated water from a pump on Broad Street'
+    },
+    {
+        topicId: 'medicine-3-5',
+        question: 'The first Public Health Act was passed in what year?',
+        options: [
+            '1832',
+            '1848',
+            '1854',
+            '1875'
+        ],
+        answer: '1848'
+    },
+    {
+        topicId: 'medicine-3-5',
+        question: 'Why was the 1848 Public Health Act not very effective?',
+        options: [
+            'It was too expensive',
+            'It was not compulsory for local councils to follow its recommendations',
+            'Nobody believed in miasma theory anymore',
+            'It was opposed by the Queen'
+        ],
+        answer: 'It was not compulsory for local councils to follow its recommendations'
+    },
+    {
+        topicId: 'medicine-3-5',
+        question: 'What event in 1858, known as "The Great Stink", finally pushed Parliament to improve London\'s sewage system?',
+        options: [
+            'A major cholera outbreak',
+            'A riot by poor Londoners',
+            'The hot summer weather made the smell from the River Thames unbearable',
+            'A fire destroyed the old sewers'
+        ],
+        answer: 'The hot summer weather made the smell from the River Thames unbearable'
+    },
+    {
+        topicId: 'medicine-3-5',
+        question: 'The 1875 Public Health Act was significant because...',
+        options: [
+            'It was the first ever law about health',
+            'It made it compulsory for local authorities to provide clean water, sewers and drains',
+            'It set up the NHS',
+            'It banned the sale of alcohol'
+        ],
+        answer: 'It made it compulsory for local authorities to provide clean water, sewers and drains'
+    },
+    // Medicine - Topic 4.1
+    {
+        topicId: 'medicine-4-1',
+        question: 'Who discovered penicillin in 1928?',
+        options: [
+            'Alexander Fleming',
+            'Howard Florey',
+            'Ernst Chain',
+            'Gerhard Domagk'
+        ],
+        answer: 'Alexander Fleming'
+    },
+    {
+        topicId: 'medicine-4-1',
+        question: 'How did Fleming discover penicillin?',
+        options: [
+            'He was looking for it deliberately',
+            'He noticed that mould had grown on a petri dish and killed the bacteria around it',
+            'He read about it in an old book',
+            'It was suggested to him by another scientist'
+        ],
+        answer: 'He noticed that mould had grown on a petri dish and killed the bacteria around it'
+    },
+    {
+        topicId: 'medicine-4-1',
+        question: 'Who were the two scientists who developed penicillin into a mass-produced drug?',
+        options: [
+            'Crick and Watson',
+            'Pasteur and Koch',
+            'Florey and Chain',
+            'Jenner and Hunter'
+        ],
+        answer: 'Florey and Chain'
+    },
+    {
+        topicId: 'medicine-4-1',
+        question: 'Why was World War II a key factor in the development of penicillin?',
+        options: [
+            'It destroyed all the laboratories',
+            'The US government funded its mass production to treat wounded soldiers',
+            'The scientists stopped working on it to focus on the war effort',
+            'It made transportation of the drug impossible'
+        ],
+        answer: 'The US government funded its mass production to treat wounded soldiers'
+    },
+    {
+        topicId: 'medicine-4-1',
+        question: 'Penicillin is what type of drug?',
+        options: [
+            'An antiseptic',
+            'An anaesthetic',
+            'A vaccine',
+            'An antibiotic'
+        ],
+        answer: 'An antibiotic'
+    },
+    // Medicine - Topic 4.2
+    {
+        topicId: 'medicine-4-2',
+        question: 'When was the National Health Service (NHS) launched in Britain?',
+        options: [
+            '1928',
+            '1945',
+            '1948',
+            '1953'
+        ],
+        answer: '1948'
+    },
+    {
+        topicId: 'medicine-4-2',
+        question: 'The NHS was based on the findings of which 1942 report?',
+        options: [
+            'The Chadwick Report',
+            'The Beveridge Report',
+            'The Nightingale Report',
+            'The Black Report'
+        ],
+        answer: 'The Beveridge Report'
+    },
+    {
+        topicId: 'medicine-4-2',
+        question: 'Who was the Minister for Health responsible for setting up the NHS?',
+        options: [
+            'Winston Churchill',
+            'Clement Attlee',
+            'Aneurin (Nye) Bevan',
+            'William Beveridge'
+        ],
+        answer: 'Aneurin (Nye) Bevan'
+    },
+    {
+        topicId: 'medicine-4-2',
+        question: 'What was the core principle of the NHS at its foundation?',
+        options: [
+            'Healthcare should be available to everyone, free at the point of delivery',
+            'Only working people should receive free healthcare',
+            'People should have private health insurance',
+            'The government should only run hospitals'
+        ],
+        answer: 'Healthcare should be available to everyone, free at the point of delivery'
+    },
+    {
+        topicId: 'medicine-4-2',
+        question: 'Which group initially opposed the creation of the NHS?',
+        options: [
+            'The public',
+            'The Labour Party',
+            'Nurses',
+            'Doctors (the BMA)'
+        ],
+        answer: 'Doctors (the BMA)'
+    },
+    // Medicine - Topic 4.3
+    {
+        topicId: 'medicine-4-3',
+        question: 'Who discovered the structure of DNA in 1953?',
+        options: [
+            'Florey and Chain',
+            'Fleming and Pasteur',
+            'Crick and Watson',
+            'Franklin and Wilkins'
+        ],
+        answer: 'Crick and Watson'
+    },
+    {
+        topicId: 'medicine-4-3',
+        question: 'What is the shape of a DNA molecule often described as?',
+        options: [
+            'A single strand',
+            'A sphere',
+            'A double helix',
+            'A cube'
+        ],
+        answer: 'A double helix'
+    },
+    {
+        topicId: 'medicine-4-3',
+        question: 'The discovery of DNA was a major breakthrough for understanding...',
+        options: [
+            'Infectious diseases',
+            'Hereditary and genetic diseases',
+            'The causes of poverty',
+            'The spread of cholera'
+        ],
+        answer: 'Hereditary and genetic diseases'
+    },
+    {
+        topicId: 'medicine-4-3',
+        question: 'What major international scientific project, completed in 2003, aimed to map out the entire genetic code of a human?',
+        options: [
+            'The Apollo Program',
+            'The Manhattan Project',
+            'The Human Genome Project',
+            'The DNA Project'
+        ],
+        answer: 'The Human Genome Project'
+    },
+    {
+        topicId: 'medicine-4-3',
+        question: 'Rosalind Franklin and Maurice Wilkins contributed to the discovery of DNA\'s structure through their work with what technique?',
+        options: [
+            'Microscopy',
+            'X-ray crystallography',
+            'Bacteriology',
+            'Vaccination'
+        ],
+        answer: 'X-ray crystallography'
+    },
+    // Medicine - Topic 4.4
+    {
+        topicId: 'medicine-4-4',
+        question: 'Which of these is a modern surgical technique that uses a tiny camera and instruments?',
+        options: [
+            'Bloodletting',
+            'Trepanning',
+            'Keyhole surgery (Laparoscopy)',
+            'Antiseptic surgery'
+        ],
+        answer: 'Keyhole surgery (Laparoscopy)'
+    },
+    {
+        topicId: 'medicine-4-4',
+        question: 'What type of therapy uses high-energy rays to target and kill cancer cells?',
+        options: [
+            'Chemotherapy',
+            'Radiotherapy',
+            'Immunotherapy',
+            'Gene therapy'
+        ],
+        answer: 'Radiotherapy'
+    },
+    {
+        topicId: 'medicine-4-4',
+        question: 'What was the first organ to be successfully transplanted in humans?',
+        options: [
+            'Heart',
+            'Lung',
+            'Liver',
+            'Kidney'
+        ],
+        answer: 'Kidney'
+    },
+    {
+        topicId: 'medicine-4-4',
+        question: 'The development of what type of drugs was essential for the success of organ transplants?',
+        options: [
+            'Antibiotics',
+            'Anaesthetics',
+            'Immunosuppressants',
+            'Painkillers'
+        ],
+        answer: 'Immunosuppressants'
+    },
+    {
+        topicId: 'medicine-4-4',
+        question: 'Which of the following is NOT a development in modern surgery?',
+        options: [
+            'Robotic surgery',
+            'Laser surgery',
+            'Organ transplants',
+            'The use of carbolic acid spray'
+        ],
+        answer: 'The use of carbolic acid spray'
+    },
+    // Medicine - Topic 4.5
+    {
+        topicId: 'medicine-4-5',
+        question: 'Which of these is a focus of modern public health campaigns?',
+        options: [
+            'Encouraging smoking and drinking',
+            'Promoting a healthy diet and regular exercise',
+            'Discouraging vaccination',
+            'Ignoring infectious diseases'
+        ],
+        answer: 'Promoting a healthy diet and regular exercise'
+    },
+    {
+        topicId: 'medicine-4-5',
+        question: 'What disease, once a major killer, has been completely eradicated worldwide due to vaccination?',
+        options: [
+            'Polio',
+            'Smallpox',
+            'Measles',
+            'Tuberculosis'
+        ],
+        answer: 'Smallpox'
+    },
+    {
+        topicId: 'medicine-4-5',
+        question: 'What is a major challenge for modern medicine?',
+        options: [
+            'The rise of antibiotic-resistant bacteria ("superbugs")',
+            'The ageing population',
+            'The high cost of developing new drugs and treatments',
+            'All of the above'
+        ],
+        answer: [
+            'The rise of antibiotic-resistant bacteria ("superbugs")',
+            'The ageing population',
+            'The high cost of developing new drugs and treatments'
+        ]
+    },
+    {
+        topicId: 'medicine-4-5',
+        question: 'Which pandemic began in 2019, causing a global health crisis?',
+        options: [
+            'Spanish Flu',
+            'Swine Flu',
+            'Ebola',
+            'COVID-19'
+        ],
+        answer: 'COVID-19'
+    },
+    {
+        topicId: 'medicine-4-5',
+        question: 'Screening programmes, such as those for breast cancer and cervical cancer, are an example of what type of public health measure?',
+        options: [
+            'Treatment',
+            'Prevention and early diagnosis',
+            'Cure',
+            'Palliative care'
+        ],
+        answer: 'Prevention and early diagnosis'
+    },
+    // Anglo-Saxon - Topic 1.1
+    {
+        topicId: 'anglo-saxon-1-1',
+        question: 'What was a "ceorl" in Anglo-Saxon society?',
+        options: [
+            'A nobleman',
+            'A slave',
+            'A free peasant',
+            'A priest'
+        ],
+        answer: 'A free peasant'
+    },
+    {
+        topicId: 'anglo-saxon-1-1',
+        question: 'What was the Witan?',
+        options: [
+            'The Anglo-Saxon army',
+            'A council of advisors to the king',
+            'A type of tax',
+            'The royal family'
+        ],
+        answer: 'A council of advisors to the king'
+    },
+    {
+        topicId: 'anglo-saxon-1-1',
+        question: 'Anglo-Saxon England was divided into administrative districts called...',
+        options: [
+            'Counties',
+            'Provinces',
+            'Shires',
+            'Kingdoms'
+        ],
+        answer: 'Shires'
+    },
+    {
+        topicId: 'anglo-saxon-1-1',
+        question: 'The "fyrd" was the name for the Anglo-Saxon...',
+        options: [
+            'Royal court',
+            'Tax system',
+            'Army',
+            'Legal system'
+        ],
+        answer: 'Army'
+    },
+    {
+        topicId: 'anglo-saxon-1-1',
+        question: 'What was "wergild"?',
+        options: [
+            'A tax paid to the king',
+            'A fine paid to a murder victim\'s family',
+            'Land owned by a ceorl',
+            'A type of weapon'
+        ],
+        answer: 'A fine paid to a murder victim\'s family'
+    },
+    // Anglo-Saxon - Topic 1.2
+    {
+        topicId: 'anglo-saxon-1-2',
+        question: 'Who was the most powerful Earl in England under Edward the Confessor?',
+        options: [
+            'Leofric',
+            'Siward',
+            'Godwin',
+            'Tostig'
+        ],
+        answer: 'Godwin'
+    },
+    {
+        topicId: 'anglo-saxon-1-2',
+        question: 'Why was the Godwin family so powerful?',
+        options: [
+            'They were related to the king by blood',
+            'They controlled vast amounts of land and wealth, especially in Wessex',
+            'They had a private army larger than the king\'s',
+            'They were allies with the Pope'
+        ],
+        answer: 'They controlled vast amounts of land and wealth, especially in Wessex'
+    },
+    {
+        topicId: 'anglo-saxon-1-2',
+        question: 'Which of Godwin\'s sons became Earl of Northumbria?',
+        options: [
+            'Harold',
+            'Gyrth',
+            'Leofwine',
+            'Tostig'
+        ],
+        answer: 'Tostig'
+    },
+    {
+        topicId: 'anglo-saxon-1-2',
+        question: 'Why was Earl Godwin and his family exiled in 1051?',
+        options: [
+            'For refusing to punish the people of Dover after a clash with the King\'s Norman friends',
+            'For plotting to kill the king',
+            'For refusing to pay taxes',
+            'For invading Wales'
+        ],
+        answer: 'For refusing to punish the people of Dover after a clash with the King\'s Norman friends'
+    },
+    {
+        topicId: 'anglo-saxon-1-2',
+        question: 'How did the Godwins return from exile in 1052?',
+        options: [
+            'The King forgave them',
+            'They gathered a fleet and an army and forced the king to restore them',
+            'The Pope ordered the king to take them back',
+            'They secretly returned and hid in Wessex'
+        ],
+        answer: 'They gathered a fleet and an army and forced the king to restore them'
+    },
+    // Anglo-Saxon - Topic 1.3
+    {
+        topicId: 'anglo-saxon-1-3',
+        question: 'Who was NOT a claimant to the English throne in 1066?',
+        options: [
+            'Harold Godwinson',
+            'William of Normandy',
+            'Harald Hardrada',
+            'Svein Forkbeard'
+        ],
+        answer: 'Svein Forkbeard'
+    },
+    {
+        topicId: 'anglo-saxon-1-3',
+        question: 'What was Harald Hardrada\'s claim to the throne?',
+        options: [
+            'He was Edward\'s nephew',
+            'Edward had promised him the throne',
+            'A previous deal between the kings of Norway and England',
+            'He was the strongest military leader'
+        ],
+        answer: 'A previous deal between the kings of Norway and England'
+    },
+    {
+        topicId: 'anglo-saxon-1-3',
+        question: 'What was William of Normandy\'s claim to the throne based on?',
+        options: [
+            'An alleged promise made by King Edward',
+            'An oath sworn by Harold Godwinson during his embassy to Normandy',
+            'His distant blood relationship to Edward the Confessor',
+            'All of the above'
+        ],
+        answer: [
+            'An alleged promise made by King Edward',
+            'An oath sworn by Harold Godwinson during his embassy to Normandy',
+            'His distant blood relationship to Edward the Confessor'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-1-3',
+        question: 'Who was Edgar Aetheling?',
+        options: [
+            'A powerful English earl',
+            'Edward the Confessor\'s great-nephew and the closest blood relative',
+            'A Viking warrior',
+            'Harold Godwinson\'s brother'
+        ],
+        answer: 'Edward the Confessor\'s great-nephew and the closest blood relative'
+    },
+    {
+        topicId: 'anglo-saxon-1-3',
+        question: 'Who did the Witan choose to be king immediately after Edward\'s death?',
+        options: [
+            'William of Normandy',
+            'Edgar Aetheling',
+            'Harald Hardrada',
+            'Harold Godwinson'
+        ],
+        answer: 'Harold Godwinson'
+    },
+    // Anglo-Saxon - Topic 1.4
+    {
+        topicId: 'anglo-saxon-1-4',
+        question: 'At the Battle of Gate Fulford, who defeated the northern earls Edwin and Morcar?',
+        options: [
+            'Harold Godwinson',
+            'William of Normandy',
+            'Harald Hardrada and Tostig',
+            'The Welsh'
+        ],
+        answer: 'Harald Hardrada and Tostig'
+    },
+    {
+        topicId: 'anglo-saxon-1-4',
+        question: 'At the Battle of Stamford Bridge, Harold Godwinson defeated an invasion by whom?',
+        options: [
+            'William of Normandy',
+            'The Welsh princes',
+            'Harald Hardrada and Tostig Godwinson',
+            'The Scots'
+        ],
+        answer: 'Harald Hardrada and Tostig Godwinson'
+    },
+    {
+        topicId: 'anglo-saxon-1-4',
+        question: 'What was a major disadvantage for Harold Godwinson after the Battle of Stamford Bridge?',
+        options: [
+            'He lost too many housecarls',
+            'His army was exhausted after marching north and then south again',
+            'He had used up all his supplies',
+            'Both A and B'
+        ],
+        answer: 'Both A and B'
+    },
+    {
+        topicId: 'anglo-saxon-1-4',
+        question: 'Who was Tostig Godwinson?',
+        options: [
+            'Harold Godwinson\'s loyal brother',
+            'The Earl of Wessex',
+            'Harold Godwinson\'s exiled brother who allied with Harald Hardrada',
+            'The Archbishop of Canterbury'
+        ],
+        answer: 'Harold Godwinson\'s exiled brother who allied with Harald Hardrada'
+    },
+    {
+        topicId: 'anglo-saxon-1-4',
+        question: 'Where is Stamford Bridge located?',
+        options: [
+            'Near London',
+            'Near Hastings',
+            'Near York',
+            'In Normandy'
+        ],
+        answer: 'Near York'
+    },
+    // Anglo-Saxon - Topic 2.1
+    {
+        topicId: 'anglo-saxon-2-1',
+        question: 'The Battle of Hastings was fought on what date?',
+        options: [
+            '25th December 1066',
+            '14th October 1066',
+            '25th September 1066',
+            '6th January 1066'
+        ],
+        answer: '14th October 1066'
+    },
+    {
+        topicId: 'anglo-saxon-2-1',
+        question: 'What was a key reason for William\'s victory at Hastings?',
+        options: [
+            'His army was much larger',
+            'The use of the feigned retreat tactic',
+            'He had better cavalry and archers',
+            'Both B and C'
+        ],
+        answer: 'Both B and C'
+    },
+    {
+        topicId: 'anglo-saxon-2-1',
+        question: 'What was the English army\'s main defensive tactic at Hastings?',
+        options: [
+            'Charging with cavalry',
+            'Using archers from a distance',
+            'Forming a shield wall on a hill',
+            'Guerilla warfare in the woods'
+        ],
+        answer: 'Forming a shield wall on a hill'
+    },
+    {
+        topicId: 'anglo-saxon-2-1',
+        question: 'How was King Harold Godwinson killed?',
+        options: [
+            'He was shot with an arrow in the eye',
+            'He was cut down by Norman knights',
+            'He fled the battle',
+            'The exact cause is disputed by historians'
+        ],
+        answer: 'The exact cause is disputed by historians'
+    },
+    {
+        topicId: 'anglo-saxon-2-1',
+        question: 'What did William do immediately after winning the Battle of Hastings?',
+        options: [
+            'Marched directly to London',
+            'Returned to Normandy in triumph',
+            'Cycled through Kent, securing the coastline before marching on London',
+            'Waited for the English earls to surrender'
+        ],
+        answer: 'Cycled through Kent, securing the coastline before marching on London'
+    },
+    // Anglo-Saxon - Topic 2.2
+    {
+        topicId: 'anglo-saxon-2-2',
+        question: 'After Hastings, who did the remaining Anglo-Saxon leaders in London choose as king?',
+        options: [
+            'William of Normandy',
+            'Edwin',
+            'Morcar',
+            'Edgar Aetheling'
+        ],
+        answer: 'Edgar Aetheling'
+    },
+    {
+        topicId: 'anglo-saxon-2-2',
+        question: 'Why did William march through Kent, Sussex and Hampshire before approaching London?',
+        options: [
+            'He was lost',
+            'To secure the south coast and key towns, and intimidate London into submission',
+            'He was waiting for reinforcements from Normandy',
+            'To build castles along the way'
+        ],
+        answer: 'To secure the south coast and key towns, and intimidate London into submission'
+    },
+    {
+        topicId: 'anglo-saxon-2-2',
+        question: 'Where did the Anglo-Saxon earls, including Edgar Aetheling, finally submit to William?',
+        options: [
+            'In London',
+            'At Winchester',
+            'At Berkhamsted',
+            'At York'
+        ],
+        answer: 'At Berkhamsted'
+    },
+    {
+        topicId: 'anglo-saxon-2-2',
+        question: 'What did William build across England to help secure his rule?',
+        options: [
+            'Roads',
+            'Churches',
+            'Motte and bailey castles',
+            'Universities'
+        ],
+        answer: 'Motte and bailey castles'
+    },
+    {
+        topicId: 'anglo-saxon-2-2',
+        question: 'On what day was William crowned King of England?',
+        options: [
+            '14th October 1066',
+            '1st November 1066',
+            '25th December 1066',
+            '1st January 1067'
+        ],
+        answer: '25th December 1066'
+    },
+    // Anglo-Saxon - Topic 2.3
+    {
+        topicId: 'anglo-saxon-2-3',
+        question: 'What system of land ownership did William introduce to control England?',
+        options: [
+            'Capitalism',
+            'The Feudal System',
+            'Communism',
+            'Democracy'
+        ],
+        answer: 'The Feudal System'
+    },
+    {
+        topicId: 'anglo-saxon-2-3',
+        question: 'Under the Feudal System, who did the king grant land to in return for military service?',
+        options: [
+            'Peasants',
+            'Tenants-in-chief',
+            'The Church',
+            'Foreign kings'
+        ],
+        answer: 'Tenants-in-chief'
+    },
+    {
+        topicId: 'anglo-saxon-2-3',
+        question: 'What was the main purpose of the Feudal System for William?',
+        options: [
+            'To make everyone equal',
+            'To ensure he had a loyal army and control over the land',
+            'To get rid of all the Anglo-Saxons',
+            'To please the Pope'
+        ],
+        answer: 'To ensure he had a loyal army and control over the land'
+    },
+    {
+        topicId: 'anglo-saxon-2-3',
+        question: 'What did the tenants-in-chief have to do in return for their land?',
+        options: [
+            'Pay a large sum of money',
+            'Provide a certain number of knights for the king\'s army',
+            'Live at the king\'s court',
+            'Marry a Norman'
+        ],
+        answer: 'Provide a certain number of knights for the king\'s army'
+    },
+    {
+        topicId: 'anglo-saxon-2-3',
+        question: 'Motte and bailey castles were built quickly using what materials?',
+        options: [
+            'Stone and mortar',
+            'Bricks and tiles',
+            'Wood and earth',
+            'Iron and steel'
+        ],
+        answer: 'Wood and earth'
+    },
+    // Anglo-Saxon - Topic 2.4
+    {
+        topicId: 'anglo-saxon-2-4',
+        question: 'Who led a major rebellion against William in Mercia and Northumbria in 1068?',
+        options: [
+            'Hereward the Wake',
+            'Tostig Godwinson',
+            'Edwin and Morcar',
+            'Edgar Aetheling'
+        ],
+        answer: 'Edwin and Morcar'
+    },
+    {
+        topicId: 'anglo-saxon-2-4',
+        question: 'What was a key cause of the 1068 rebellion?',
+        options: [
+            'High taxes imposed by William',
+            'The building of castles',
+            'The power of William\'s regent, Odo of Bayeux',
+            'All of the above'
+        ],
+        answer: [
+            'High taxes imposed by William',
+            'The building of castles',
+            'The power of William\'s regent, Odo of Bayeux'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-2-4',
+        question: 'How did William respond to the rebellion of Edwin and Morcar?',
+        options: [
+            'He negotiated with them',
+            'He marched north, building castles as he went, and the rebellion collapsed',
+            'He ignored it',
+            'He executed them immediately'
+        ],
+        answer: 'He marched north, building castles as he went, and the rebellion collapsed'
+    },
+    {
+        topicId: 'anglo-saxon-2-4',
+        question: 'After the 1068 rebellion, what did William do with Edwin and Morcar?',
+        options: [
+            'He executed them',
+            'He imprisoned them for life',
+            'He pardoned them and kept them at his court',
+            'He exiled them to Normandy'
+        ],
+        answer: 'He pardoned them and kept them at his court'
+    },
+    {
+        topicId: 'anglo-saxon-2-4',
+        question: 'What was a major weakness of the early Anglo-Saxon rebellions?',
+        options: [
+            'They were poorly armed',
+            'They lacked strong leadership and coordination',
+            'They had no support from the local population',
+            'They were not fighting for a clear cause'
+        ],
+        answer: 'They lacked strong leadership and coordination'
+    },
+    // Anglo-Saxon - Topic 3.1
+    {
+        topicId: 'anglo-saxon-3-1',
+        question: 'What was the "Harrying of the North"?',
+        options: [
+            'A celebration of northern culture',
+            'A brutal campaign by William to destroy homes, crops, and livestock',
+            'The building of a large wall to keep out the Scots',
+            'A tax collection tour'
+        ],
+        answer: 'A brutal campaign by William to destroy homes, crops, and livestock'
+    },
+    {
+        topicId: 'anglo-saxon-3-1',
+        question: 'The Harrying of the North was a response to which event?',
+        options: [
+            'The Battle of Hastings',
+            'The rebellion of Edwin and Morcar',
+            'A major uprising in the north in 1069, supported by the Danes',
+            'The Domesday Book survey'
+        ],
+        answer: 'A major uprising in the north in 1069, supported by the Danes'
+    },
+    {
+        topicId: 'anglo-saxon-3-1',
+        question: 'What were the long-term consequences of the Harrying of the North?',
+        options: [
+            'The north became the wealthiest part of England',
+            'Thousands died of starvation and the area was devastated for decades',
+            'William lost control of the north',
+            'The Anglo-Saxons and Normans became friends'
+        ],
+        answer: 'Thousands died of starvation and the area was devastated for decades'
+    },
+    {
+        topicId: 'anglo-saxon-3-1',
+        question: 'Who led a famous rebellion at Ely in 1070-71?',
+        options: [
+            'Edwin',
+            'Morcar',
+            'Edgar Aetheling',
+            'Hereward the Wake'
+        ],
+        answer: 'Hereward the Wake'
+    },
+    {
+        topicId: 'anglo-saxon-3-1',
+        question: 'How did William defeat the rebellion at Ely?',
+        options: [
+            'He built a causeway across the fens to attack the rebels',
+            'He negotiated a surrender',
+            'He starved them out',
+            'The rebellion fell apart on its own'
+        ],
+        answer: 'He built a causeway across the fens to attack the rebels'
+    },
+    // Anglo-Saxon - Topic 3.2
+    {
+        topicId: 'anglo-saxon-3-2',
+        question: 'By 1086, what had happened to the Anglo-Saxon aristocracy?',
+        options: [
+            'They had become more powerful than ever',
+            'They had almost entirely been replaced by Normans',
+            'They had intermarried with the Normans and shared power',
+            'They had all moved to Scotland'
+        ],
+        answer: 'They had almost entirely been replaced by Normans'
+    },
+    {
+        topicId: 'anglo-saxon-3-2',
+        question: 'What was the "Revolt of the Earls" in 1075?',
+        options: [
+            'The last major Anglo-Saxon rebellion',
+            'A rebellion by three of William\'s own Norman earls',
+            'A peasant\'s revolt',
+            'A revolt led by William\'s son, Robert'
+        ],
+        answer: 'A rebellion by three of William\'s own Norman earls'
+    },
+    {
+        topicId: 'anglo-saxon-3-2',
+        question: 'Who were the three earls who revolted in 1075?',
+        options: [
+            'Edwin, Morcar, and Waltheof',
+            'Roger, Ralph, and Waltheof',
+            'Odo, Robert, and William FitzOsbern',
+            'Lanfranc, Stigand, and Thomas'
+        ],
+        answer: 'Roger, Ralph, and Waltheof'
+    },
+    {
+        topicId: 'anglo-saxon-3-2',
+        question: 'Why did the Revolt of the Earls fail?',
+        options: [
+            'The rebels were betrayed by Waltheof',
+            'Most Anglo-Saxons supported King William against the rebels',
+            'Lanfranc, acting as regent, dealt with it quickly',
+            'All of the above'
+        ],
+        answer: [
+            'The rebels were betrayed by Waltheof',
+            'Most Anglo-Saxons supported King William against the rebels',
+            'Lanfranc, acting as regent, dealt with it quickly'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-3-2',
+        question: 'What happened to Waltheof, the last surviving Anglo-Saxon earl, after the revolt?',
+        options: [
+            'He was pardoned',
+            'He was exiled',
+            'He was executed',
+            'He escaped to Denmark'
+        ],
+        answer: 'He was executed'
+    },
+    // Anglo-Saxon - Topic 3.3
+    {
+        topicId: 'anglo-saxon-3-3',
+        question: 'Under the Normans, who were the "sheriffs"?',
+        options: [
+            'Elected local officials',
+            'The king\'s chief law enforcement and tax collection officers in the shires',
+            'Peasants who worked the land',
+            'High-ranking churchmen'
+        ],
+        answer: 'The king\'s chief law enforcement and tax collection officers in the shires'
+    },
+    {
+        topicId: 'anglo-saxon-3-3',
+        question: 'What was the main change to government under the Normans?',
+        options: [
+            'It became more democratic',
+            'It became much more centralised, with the king holding more power',
+            'The Witan continued to have the final say',
+            'The government was run from Normandy, not England'
+        ],
+        answer: 'It became much more centralised, with the king holding more power'
+    },
+    {
+        topicId: 'anglo-saxon-3-3',
+        question: 'What was a "writ"?',
+        options: [
+            'A type of tax',
+            'A legal document carrying an order from the king',
+            'A Norman soldier',
+            'A part of a castle'
+        ],
+        answer: 'A legal document carrying an order from the king'
+    },
+    {
+        topicId: 'anglo-saxon-3-3',
+        question: 'How did William maintain royal power?',
+        options: [
+            'Through the Feudal System and land ownership',
+            'Through the use of sheriffs and royal writs',
+            'Through the Domesday Book survey',
+            'All of the above'
+        ],
+        answer: [
+            'Through the Feudal System and land ownership',
+            'Through the use of sheriffs and royal writs',
+            'Through the Domesday Book survey'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-3-3',
+        question: 'What happened to the Anglo-Saxon system of shires and courts under the Normans?',
+        options: [
+            'It was completely abolished',
+            'It was replaced with a French system',
+            'It was largely kept in place, but with Normans in charge',
+            'It was merged with the Church courts'
+        ],
+        answer: 'It was largely kept in place, but with Normans in charge'
+    },
+    // Anglo-Saxon - Topic 3.4
+    {
+        topicId: 'anglo-saxon-3-4',
+        question: 'What was the primary purpose of the Domesday Book?',
+        options: [
+            'To record English history',
+            'To find out how much land and resources people owned for tax purposes',
+            'To create a list of all the people in England',
+            'To set down the laws of the land'
+        ],
+        answer: 'To find out how much land and resources people owned for tax purposes'
+    },
+    {
+        topicId: 'anglo-saxon-3-4',
+        question: 'The Domesday Book was commissioned by William in what year?',
+        options: [
+            '1066',
+            '1075',
+            '1085',
+            '1087'
+        ],
+        answer: '1085'
+    },
+    {
+        topicId: 'anglo-saxon-3-4',
+        question: 'Why was the Domesday Book so significant?',
+        options: [
+            'It was the first survey of its kind in England',
+            'It showed the massive transfer of land from Anglo-Saxons to Normans',
+            'It helped William to maximise his income and control',
+            'All of the above'
+        ],
+        answer: [
+            'It was the first survey of its kind in England',
+            'It showed the massive transfer of land from Anglo-Saxons to Normans',
+            'It helped William to maximise his income and control'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-3-4',
+        question: 'The Domesday survey was carried out by sending royal commissioners to which courts?',
+        options: [
+            'The Royal Court',
+            'The Shire Courts',
+            'The Church Courts',
+            'The Hundred Courts'
+        ],
+        answer: 'The Shire Courts'
+    },
+    {
+        topicId: 'anglo-saxon-3-4',
+        question: 'What does the name "Domesday" mean?',
+        options: [
+            'The King\'s Book',
+            'The Book of England',
+            'The Book of Judgement (Doomsday)',
+            'The Tax Book'
+        ],
+        answer: 'The Book of Judgement (Doomsday)'
+    },
+    // Anglo-Saxon - Topic 3.5
+    {
+        topicId: 'anglo-saxon-3-5',
+        question: 'Who did William replace Stigand with as Archbishop of Canterbury?',
+        options: [
+            'The Pope',
+            'Odo of Bayeux',
+            'Lanfranc',
+            'Thomas of Bayeux'
+        ],
+        answer: 'Lanfranc'
+    },
+    {
+        topicId: 'anglo-saxon-3-5',
+        question: 'What was Lanfranc\'s main reform of the English Church?',
+        options: [
+            'He introduced spiritual reforms, opposing corruption and enforcing celibacy for priests',
+            'He replaced Anglo-Saxon bishops with Normans',
+            'He established separate Church courts',
+            'All of the above'
+        ],
+        answer: [
+            'He introduced spiritual reforms, opposing corruption and enforcing celibacy for priests',
+            'He replaced Anglo-Saxon bishops with Normans',
+            'He established separate Church courts'
+        ]
+    },
+    {
+        topicId: 'anglo-saxon-3-5',
+        question: 'What architectural style became dominant in England for churches and cathedrals after the conquest?',
+        options: [
+            'Anglo-Saxon',
+            'Gothic',
+            'Romanesque (or Norman)',
+            'Modernist'
+        ],
+        answer: 'Romanesque (or Norman)'
+    },
+    {
+        topicId: 'anglo-saxon-3-5',
+        question: 'After the conquest, what became the language of government and the ruling class?',
+        options: [
+            'English',
+            'Latin',
+            'Norman-French',
+            'Danish'
+        ],
+        answer: 'Norman-French'
+    },
+    {
+        topicId: 'anglo-saxon-3-5',
+        question: 'How did William\'s relationship with the Papacy change over his reign?',
+        options: [
+            'He became more obedient to the Pope',
+            'He had a good relationship at first, but later resisted the Pope\'s attempts to interfere in England',
+            'He was excommunicated by the Pope',
+            'He ignored the Pope completely'
+        ],
+        answer: 'He had a good relationship at first, but later resisted the Pope\'s attempts to interfere in England'
+    }
+];
+const quizData = {
+    'cold-war-1': allQuestions.filter((q)=>q.topicId.startsWith('cold-war-1')),
+    'cold-war-2': allQuestions.filter((q)=>q.topicId.startsWith('cold-war-2')),
+    'cold-war-3': allQuestions.filter((q)=>q.topicId.startsWith('cold-war-3')),
+    'weimar-1': allQuestions.filter((q)=>q.topicId.startsWith('weimar-1')),
+    'weimar-2': allQuestions.filter((q)=>q.topicId.startsWith('weimar-2')),
+    'weimar-3': allQuestions.filter((q)=>q.topicId.startsWith('weimar-3')),
+    'weimar-4': allQuestions.filter((q)=>q.topicId.startsWith('weimar-4')),
+    'medicine-1': allQuestions.filter((q)=>q.topicId.startsWith('medicine-1')),
+    'medicine-2': allQuestions.filter((q)=>q.topicId.startsWith('medicine-2')),
+    'medicine-3': allQuestions.filter((q)=>q.topicId.startsWith('medicine-3')),
+    'medicine-4': allQuestions.filter((q)=>q.topicId.startsWith('medicine-4')),
+    'anglo-saxon-1': allQuestions.filter((q)=>q.topicId.startsWith('anglo-saxon-1')),
+    'anglo-saxon-2': allQuestions.filter((q)=>q.topicId.startsWith('anglo-saxon-2')),
+    'anglo-saxon-3': allQuestions.filter((q)=>q.topicId.startsWith('anglo-saxon-3')),
+    'default': allQuestions.filter((q)=>q.topicId.startsWith('default'))
+};
+}}),
+"[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "Card": (()=>Card),
+    "CardContent": (()=>CardContent),
+    "CardDescription": (()=>CardDescription),
+    "CardFooter": (()=>CardFooter),
+    "CardHeader": (()=>CardHeader),
+    "CardTitle": (()=>CardTitle)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-ssr] (ecmascript)");
+;
+;
+;
+const Card = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("rounded-lg border bg-card text-card-foreground shadow-sm", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 9,
+        columnNumber: 3
+    }, this));
+Card.displayName = "Card";
+const CardHeader = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex flex-col space-y-1.5 p-6", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 24,
+        columnNumber: 3
+    }, this));
+CardHeader.displayName = "CardHeader";
+const CardTitle = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-2xl font-semibold leading-none tracking-tight", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 36,
+        columnNumber: 3
+    }, this));
+CardTitle.displayName = "CardTitle";
+const CardDescription = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-sm text-muted-foreground", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 51,
+        columnNumber: 3
+    }, this));
+CardDescription.displayName = "CardDescription";
+const CardContent = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 63,
+        columnNumber: 3
+    }, this));
+CardContent.displayName = "CardContent";
+const CardFooter = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex items-center p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 71,
+        columnNumber: 3
+    }, this));
+CardFooter.displayName = "CardFooter";
+;
+}}),
+"[project]/src/app/index/page.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>IndexPage)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$page$2d$header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/page-header.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/accordion.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/data.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.tsx [app-ssr] (ecmascript)");
+'use client';
+;
+;
+;
+;
+;
+function TopicSummaryContent({ topic }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "prose prose-sm dark:prose-invert max-w-none",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            dangerouslySetInnerHTML: {
+                __html: topic.content
+            }
+        }, void 0, false, {
+            fileName: "[project]/src/app/index/page.tsx",
+            lineNumber: 19,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/index/page.tsx",
+        lineNumber: 18,
+        columnNumber: 5
+    }, this);
+}
+function IndexPage() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$page$2d$header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PageHeader"], {
+                title: "Index of Key Information",
+                description: "A complete reference guide with AI-generated summaries of all key people, dates, and events for each topic."
+            }, void 0, false, {
+                fileName: "[project]/src/app/index/page.tsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                    className: "p-4",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Accordion"], {
+                        type: "multiple",
+                        className: "w-full",
+                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$data$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["subjects"].map((subject)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                                value: subject.id,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                        className: "text-xl font-bold hover:no-underline",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(subject.icon, {
+                                                    className: "h-6 w-6 text-primary"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/index/page.tsx",
+                                                    lineNumber: 38,
+                                                    columnNumber: 21
+                                                }, this),
+                                                subject.name
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/index/page.tsx",
+                                            lineNumber: 37,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/index/page.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Accordion"], {
+                                            type: "multiple",
+                                            className: "w-full",
+                                            children: [
+                                                subject.topics.map((topic)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                                                        value: topic.id,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                                                className: "font-semibold",
+                                                                children: topic.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/index/page.tsx",
+                                                                lineNumber: 46,
+                                                                columnNumber: 25
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TopicSummaryContent, {
+                                                                    topic: topic
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/index/page.tsx",
+                                                                    lineNumber: 48,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/index/page.tsx",
+                                                                lineNumber: 47,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        ]
+                                                    }, topic.id, true, {
+                                                        fileName: "[project]/src/app/index/page.tsx",
+                                                        lineNumber: 45,
+                                                        columnNumber: 23
+                                                    }, this)),
+                                                subject.practicals?.map((topic)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                                                        value: topic.id,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                                                className: "font-semibold",
+                                                                children: topic.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/index/page.tsx",
+                                                                lineNumber: 54,
+                                                                columnNumber: 25
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TopicSummaryContent, {
+                                                                    topic: topic
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/index/page.tsx",
+                                                                    lineNumber: 56,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/index/page.tsx",
+                                                                lineNumber: 55,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        ]
+                                                    }, topic.id, true, {
+                                                        fileName: "[project]/src/app/index/page.tsx",
+                                                        lineNumber: 53,
+                                                        columnNumber: 23
+                                                    }, this))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/index/page.tsx",
+                                            lineNumber: 43,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/index/page.tsx",
+                                        lineNumber: 42,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, subject.id, true, {
+                                fileName: "[project]/src/app/index/page.tsx",
+                                lineNumber: 35,
+                                columnNumber: 15
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/index/page.tsx",
+                        lineNumber: 33,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/index/page.tsx",
+                    lineNumber: 32,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/index/page.tsx",
+                lineNumber: 31,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
+}}),
+
+};
+
+//# sourceMappingURL=src_046faa9d._.js.map

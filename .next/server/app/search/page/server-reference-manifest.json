@@ -1,0 +1,27 @@
+{
+  "node": {
+    "404dcffc1723ab3f80a83b00432e187737b87817c7": {
+      "workers": {
+        "app/search/page": {
+          "moduleId": "[project]/.next-internal/server/app/search/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-glossary-entry.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/search/page": "action-browser"
+      }
+    },
+    "4024810428d762cec424c542bd7bf53c2c400d3990": {
+      "workers": {
+        "app/search/page": {
+          "moduleId": "[project]/.next-internal/server/app/search/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/chat-helper.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/ai/flows/generate-glossary-entry.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/search/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
