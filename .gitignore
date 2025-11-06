@@ -13,16 +13,20 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
 # production
 /build
 
 # misc
 .DS_Store
 *.pem
+
+# allow tracking .next build outputs (override repo-level ignores)
+!.next/
+!.next/**
+
+# but keep this single file ignored
+.next/cache/webpack/server-production/0.pack
+
 
 # debug
 npm-debug.log*
@@ -39,7 +43,3 @@ next-env.d.ts
 
 .genkit/*
 .env*
-
-# firebase
-firebase-debug.log
-firestore-debug.log
