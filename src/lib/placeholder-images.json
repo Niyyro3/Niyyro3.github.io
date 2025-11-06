@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "cold-war-hero",
+      "description": "A placeholder image for the Cold War topic page.",
+      "imageUrl": "https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2xkJTIwd2FyfGVufDB8fHx8MTc2MTMyOTU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cold war flag"
+    },
+    {
+      "id": "weimar-hero",
+      "description": "A placeholder image for the Weimar and Nazi Germany topic page.",
+      "imageUrl": "https://images.unsplash.com/photo-1674440477591-02f7a1b0cad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWltYXIlMjBhbmQlMjBuYXppJTIwZ2VybWFueSUyMGZsYWd8ZW58MHx8fHwxNzYxMzI5NzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weimar nazi flag"
+    },
+    {
+      "id": "medicine-hero",
+      "description": "A placeholder image for the Medicine in Britain topic page.",
+      "imageUrl": "https://images.unsplash.com/photo-1628595351029-c2bf17511435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2luZXxlbnwwfHx8fDE3NjEzMjk4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medicine science"
+    },
+    {
+      "id": "norman-hero",
+      "description": "A placeholder image for the Anglo-Saxon and Norman England topic page.",
+      "imageUrl": "https://images.unsplash.com/photo-1591168934275-4fc91f3c6533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmdsby1zYXhvbnxlbnwwfHx8fDE3NjEzMjk4NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anglo-saxon"
+    },
+    {
+      "id": "user-avatar",
+      "description": "A placeholder image for the user avatar.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjExMjcwNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
+}
